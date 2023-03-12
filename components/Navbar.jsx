@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Header from './Header/Header';
 // import styles from '../styles/Nav.module.css';
+import { AiOutlineClose } from 'react-icons/ai';
+import { AiOutlineMenu } from 'react-icons/ai';
 
 const Navbar = () => {
     const [show, setShow] = useState(false);
@@ -28,21 +30,38 @@ const Navbar = () => {
                 </div>
 
                 <div class="mobile-area">
-                    <div class="container">
+                    <div class="" style={{display:"flex", justifyContent:"space-evenly",alignItems:"center"}}>
                         <div class="mobile-logo">
                             <a href="/"><img src="/assets/logo.png" /></a>
                         </div>
 
-                        {/* <div class="mobile-menu">
-                            <button onclick={() => { setShow(!show) }}>click</button>
-                            <span style={{ fontSize: "30px", cursor: "pointer" }}><img src="/assets/hamburger-icon.png" class="hamburger" /></span>
-                            {
-
+                        <div class="mobile-menu">
+                        {
+                                show?<span style={{ fontSize: "30px", cursor: "pointer",color:"white",fontSize:"30px"}} onClick={()=>{setShow(!show)}}><AiOutlineClose className='hamburger'/></span>:<span style={{ fontSize: "30px", cursor: "pointer",color:"white",fontSize:"30px" }} onClick={()=>{setShow(!show)}}><AiOutlineMenu className='hamburger'/></span>
                             }
 
-                        </div> */}
+                            
+                        </div>
+                        <div>
+                        </div>
+                        
                         <div class="clear"></div>
                     </div>
+                    {
+                            
+                            show?<div id="myNav" class="overlay">
+                            <div class="overlay-content">
+                                <a href="#">Game</a>
+                                <a href="#">NFTs</a>
+                                <a href="#">Unlock wallet</a>
+                                
+                                
+                                
+                            
+                            </div>
+                        </div>	:""
+                            }
+                   
                 </div>
                 
                 

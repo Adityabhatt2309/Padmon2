@@ -457,7 +457,7 @@ div#demo5 {
     list-style: none;
 }
 .footer-3 ul a img {
-	width: 16%;
+	width: 50%;
     float: right;
     margin-right: 35px;
     transition: all 0.9s;	
@@ -1983,6 +1983,10 @@ img.scroll {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #00002d;
+  width: 100%;
 }
 
 .overlay-content a {
@@ -1991,7 +1995,7 @@ img.scroll {
     text-decoration: none;
 }
 .footer-3 ul a img {
-    width: 16%;
+    width: 50%;
     float: right;
     margin-right: 25px;
     transition: all 0.9s;
@@ -2018,9 +2022,15 @@ div#iinsec-8 {
     width: 12%;
     float: right;
     margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 img.hamburger {
     width: 100%;
+}
+.close-Icon{
+    font-size: x-large;
 }
 .mobile-area {
     display: block;
