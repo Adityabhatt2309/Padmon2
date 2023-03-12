@@ -340,6 +340,7 @@ transform: scaleX(1.2) scaleY(1.2)!important;
 }
 .rd-sec-1 {
     background-image: linear-gradient(#184182, #00002e);
+    background-image: linear-gradient(#348be3, #071245);	
     margin-left: 0 !important;	
 	
 }
@@ -349,7 +350,7 @@ transform: scaleX(1.2) scaleY(1.2)!important;
 }
 .rd-sec-3 
 {
-    background-image: linear-gradient(#348be3, #071245);	
+    background-image: linear-gradient(#184182, #00002e);
 }
 .sec-11 {
     margin-bottom: 50px;

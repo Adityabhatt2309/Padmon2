@@ -22,7 +22,7 @@ const Features = () => {
 				</div>
 				
 				<div class="sec-10-heading">
-					<h2>safer INVISTING</h2>
+					<h2>safer INVESTING</h2>
 				</div>
 					
 				<div class="sec-10-content">
