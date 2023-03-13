@@ -12,7 +12,7 @@ const Navbar = () => {
                     <div className="container">
                         <div className="inner-header-area">
                             <div className="header-left">
-                                <a href="#"><img src="/assets/videos/logo.png" /></a>
+                                <a href="#"><img src="/assets/padmondaoblueoutline-1.png" /></a>
                             </div>
 
                             <div className="header-right">
@@ -30,9 +30,9 @@ const Navbar = () => {
                 </div>
 
                 <div class="mobile-area">
-                    <div class="">
+                    <div class="container">
                         <div class="mobile-logo">
-                            <a href="/"><img src="/assets/logo.png" /></a>
+                            <a href="/"><img src="/assets/padmondaoblueoutline-1.png" /></a>
                         </div>
 
                         <div class="mobile-menu">
@@ -42,10 +42,6 @@ const Navbar = () => {
 
                             
                         </div>
-                        <div>
-                        </div>
-                        
-                        <div class="clear"></div>
                     </div>
                     {
                             
