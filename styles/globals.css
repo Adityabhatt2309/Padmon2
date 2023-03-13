@@ -129,14 +129,14 @@ ul.icon-listing li a  {
     /* overflow: hidden; */
     /* transition: all 0.9s; */
     margin-right: 30px;
-    transition: all 1.9s ease-in-out;
+    /* transition: all 1.9s ease-in-out; */
 }
 .inner-sec-3 {
     margin-bottom: 60px;
     margin-top: 50px;
 }
 ul.icon-listing li :hover {
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     /* transform: scale(1.9); */
     
 }
