@@ -7,7 +7,7 @@ const Roadmap = () => {
 	<div class="container">
 		<div class="inner-sec-9">
 			<h2>Roadmap</h2>
-			<p class="deve-para">Development Takes Time. Timelines Can Be Problematic. We Feel A <span>Milestone Based Roadmap Makes The Most Sense.</span></p>
+			<p class="deve-para">Development takes time. Here, find our milestone-based roadmap.</p>
 		</div>
 	</div>
 </div>

@@ -8,12 +8,12 @@ const Header = () => {
         <div class="sec-1">
 		<div class="container">
 			<div class="inner-sec-1">
-				<h2><span>Make your favorite project</span> <span>TO Launch with US</span></h2>
+				<h2> <span> Let's invest in the future of blockchain. together </span></h2>
 			</div>
 			
 			<div class="inner-sec-2">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<p>We bring forth a new generation of launchpad. <br /> with padmonDAo, every project's details will be provided to our entire community, discuss and vited upon. <br />
+				we're  more than just a launchapd, we give the people what they want, and give projects what they need. <br /> the people use their voice via governance voting to bring in projects THEY want to invest in. <br />Project gain early stage investors that want to INVEST in THEM </p>
 			</div>
 			
 			<div class="inner-sec-3-heading">
@@ -23,7 +23,7 @@ const Header = () => {
 			
 			
 			
-			<div class="inner-sec-3">
+			<div class="inner-sec-3" >
 				<ul class="icon-listing">
 					<li><a href="#"><img src="/assets/icon-1.png" /></a></li>
 					<li><a href="#"><img src="/assets/icon-2.png" /></a></li>
@@ -53,17 +53,25 @@ const Header = () => {
 			
 			<div class="inner-sec-5">
 				<h3><span>Collect exclusive set of NFTS and have</span> <span>the power to CHANGE</span> </h3>
-				
+				<h3><span>Come for the Art, Stay for the Power!</span> </h3>
 				<p>Depending on which level of PadMonkey NFT you stake for, you can have the opportunity to invest more and gain a greater position of voting 
 				power in the community! We have Three tiered NFT levels. All of which gain access to our community resources, as well as:</p>
 			</div>
 			
 			<div class="inner-sec6-1">
-				<p>The power to participate in all upcoming presales</p>
+				<ul>
+					<li>The power to participate in all upcoming presales</li>
+					<li>The power to vote</li>
+					<li>The power to create community proposals</li>
+					<li>The power to stake for rewards</li>
+					<li>Additional Utilities to Come</li>
+
+				</ul>
+				{/* <p>The power to participate in all upcoming presales</p>
 				<p>The power to vote</p>
 				<p>The power to create community proposals </p>
 				<p>The power to stake for rewards</p>
-				<p>Additional Utilities to Come</p>
+				<p>Additional Utilities to Come</p> */}
 				<div class="clear"></div>
 			</div>
 			

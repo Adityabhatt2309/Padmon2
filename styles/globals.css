@@ -44,11 +44,11 @@ body
 	clear:both;
 }
 .header-left {
-    width: 18%;
+    width: 20%;
     float: left;
 }
 .header-left a img {
-    width: 100%;
+    width: 40%;
 }
 .header-right {
     width: 60%;
@@ -58,6 +58,7 @@ body
 }
 .sec-1 .inner-sec-1 {
     margin-top: 80px;
+    color: white;
 }
 .header-right ul {
     margin-bottom: 0;
@@ -118,6 +119,7 @@ margin-top: 10px;
 }
 ul.icon-listing li {
     list-style: none;
+    justify-content: center;
 }
 ul.icon-listing li a img {
     width: 6.5%;
@@ -164,12 +166,14 @@ img.btn-image-2 {
 .inner-sec-5 {
     margin-top: 120px;
     margin-bottom: 20px;
+    text-align: left;
 }
 .inner-sec-5 p {
     font-family: madetonny-regular;
     color: white;
     font-size: 17px;
     font-weight: 200;
+    text-align: left;
 }
 .inner-sec-7-1 {
     width: 23%;
@@ -187,8 +191,9 @@ img.btn-image-2 {
 .inner-sec-7{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
-.inner-sec-7-1 img 
+.inner-sec-7-1 video 
 {
 	width:100%;
 }
@@ -1698,19 +1703,11 @@ div#iinsec-8 {
     width: 40%;
     margin: 0 auto;
 }
-.inner-sec-5 h3 span {
-    display: block;
-    font-family: Nebula-Regular;
-    background: -webkit-linear-gradient(0deg,#ffffff -10.87%,#46D8D1 42.29%, #3897F2 55.29%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 38px;
-    font-weight: 100;
-}
-.inner-sec6-1 p {
+
+.inner-sec6-1 ul li {
     font-family: Nebula-Regular;
     color: white;
-    border: 2px solid #0082ff;
+    /* border: 2px solid #0082ff; */
     padding: 2px 2px;
     float: left;
     font-size: 15px;
@@ -1985,7 +1982,9 @@ img.scroll {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  /* padding: 20px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #00002d;
   width: 100%;
 }
@@ -1994,6 +1993,7 @@ img.scroll {
     font-family: Nebula-Regular;
     color: white;
     text-decoration: none;
+    padding-block: 10px;
 }
 .footer-3 ul a img {
     width: 50%;
@@ -2002,7 +2002,7 @@ img.scroll {
     transition: all 0.9s;
 }
 
-.inner-sec6-1 p {
+.inner-sec6-1 ul li {
     display: block;
     width: 100%;
     text-align: center;
@@ -2035,7 +2035,14 @@ img.hamburger {
 }
 .mobile-area {
     display: block;
-    margin: 5% 0;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 5% 0 0 5%; */
+}
+.mobile-area div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*
 .header-area {
@@ -2043,17 +2050,54 @@ img.hamburger {
 }
 */
 
+.inner-sec-5 h3 span {
+    display: block;
+    font-family: Nebula-Regular;
+    background: -webkit-linear-gradient(0deg,#ffffff -10.87%,#46D8D1 42.29%, #3897F2 55.29%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 38px;
+    font-weight: 100;
+    text-align: center;
+}
+.inner-sec-5  p{
+    text-align: center;
+}
+
 .sec-1 h2 span {
     font-size: 40px;
+    text-align: center;
 }
 
 ul.icon-listing li a img {
-    width: 28.5%;
+    width: 28%;
+    margin-bottom: 20px;
+
+}
+ul.icon-listing{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+ul.icon-listing li a img{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 .inner-sec-4-1 img {
-    width: 80%;
+    width: 100%;
     margin-bottom: 20px;
+}
+.inner-sec-3-heading h3 {
+    font-family: Nebula-Regular;
+    font-size: 25px;
+    color: white;
+    text-align: center;
 }
 .inner-sec-7{
     display: flex;
@@ -2068,6 +2112,11 @@ ul.icon-listing li a img {
 .inner-sec-10{
     display: flex;
     flex-direction: column;
+    text-align: center;
+}
+.sec-1 .inner-sec-3 {
+    margin-top: 80px;
+    /* text-align: center; */
 }
 .sec-10-1 {
     width: 100%;
@@ -2175,6 +2224,13 @@ span.ipprc-con-span-2 {
     text-align: center;
     height: auto;
     margin-top: 10px;
+}
+.inner-sec-2 p {
+    font-family: MADETOMMY;
+    color: white;
+    font-size: 17px;
+    font-weight: 200;
+    text-align: center;
 }
 p.tagg-1 {
     width: 100%;

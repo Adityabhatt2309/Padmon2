@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Testimonial = () => {
   return (
     <div>
@@ -7,20 +8,18 @@ const Testimonial = () => {
 	<div class="container">
 		<div class="inner-sec-7">
 			
-			<div class="inner-sec-7-1 in7-1">
-				<img src="/assets/rectangle-1.png" />
-			</div>
-			
+		<div class="inner-sec-7-1">
+				{/* <img src="/assets/videos/Tier1.mp4" /> */}
+				<video  src="/assets/videos/Tier2.mp4" autoPlay="true" />
+			</div>	
 			<div class="inner-sec-7-1">
-				<img src="/assets/rectangle-2.png" />
-			</div>
+				{/* <img src="/assets/videos/Tier1.mp4" /> */}
+				<video  src="/assets/videos/Tier3.mp4" autoPlay="true" />
+			</div>	
 
 			<div class="inner-sec-7-1">
-				<img src="/assets/rectangle-3.png" />
-			</div>
-
-			<div class="inner-sec-7-1">
-				<img src="/assets/rectangle-4.png" />
+				{/* <img src="/assets/videos/Tier1.mp4" /> */}
+				<video  src="/assets/videos/Tier1.mp4" autoPlay="true" />
 			</div>			
 						
 			<div class="clear"></div>
