@@ -8,7 +8,7 @@ const Footer = () => {
 	<div class="container">
 		<div class="inner-footer">
 			<div class="footer-1">
-				<a href="#"><img src="/assets/logo.png" /></a>
+				<a href="#"><img src="/assets/padmondaoblueoutline-1.png" /></a>
 			</div>
 			
 			<div class="footer-2">
