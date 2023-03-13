@@ -11,9 +11,9 @@ const Header = () => {
 				<h2> <span> Let's invest in the future of blockchain. together </span></h2>
 			</div>
 			
-			<div class="inner-sec-2">
-				<p><span> We bring forth a new generation of launchpad. with padmonDAo, every project's details will be provided to our entire community, discuss and vited upon. 
-				we're  more than just a launchapd, we give the people what they want, and give projects what they need.  the people use their voice via governance voting to bring in projects THEY want to invest in. Project gain early stage investors that want to INVEST in THEM </span></p>
+			<div className="inner-sec-2">
+				<p> We bring forth a new generation of launchpad. with padmonDAo, every project's details will be provided to our entire community, discuss and vited upon. 
+				we're  more than just a launchapd, we give the people what they want, and give projects what they need.  the people use their voice via governance voting to bring in projects THEY want to invest in. Project gain early stage investors that want to INVEST in THEM </p>
 			</div>
 			
 			<div class="inner-sec-3-heading">
@@ -54,8 +54,8 @@ const Header = () => {
 			<div class="inner-sec-5">
 				<h3><span>Collect exclusive set of NFTS and have</span> <span>the power to CHANGE</span> </h3>
 				<h3><span>Come for the Art, Stay for the Power!</span> </h3>
-				<p>Depending on which level of PadMonkey NFT you stake for, you can have the opportunity to invest more and gain a greater position of voting 
-				power in the community! We have Three tiered NFT levels. All of which gain access to our community resources, as well as:</p>
+				<p> <span> Depending on which level of PadMonkey NFT you stake for, you can have the opportunity to invest more and gain a greater position of voting 
+				power in the community! We have Three tiered NFT levels. All of which gain access to our community resources, as well as: </span></p>
 			</div>
 			
 			<div class="inner-sec6-1">

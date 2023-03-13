@@ -3,7 +3,7 @@
     font-family: 'MADETOMMY';
     font-style: normal;
     font-weight: normal;
-    src: local('MADETOMMY'), url('/public/fonts/MADETOMMY.woff') format('woff');
+    src: local('MADETOMMY'), url('/fonts/MADETOMMY.woff') format('woff');
 }
 @font-face 
 {
@@ -17,7 +17,7 @@
     font-family: 'madetonny-regular';
     font-style: normal;
     font-weight: normal;
-    src: local('madetonny-regular'), url('/public/fonts/madetonny-regular.woff') format('woff');
+    src: local('madetonny-regular'), url('/fonts/madetonny-regular.woff') format('woff');
 }
         
 
@@ -168,7 +168,7 @@ img.btn-image-2 {
     margin-bottom: 20px;
     text-align: left;
 }
-.inner-sec-5 p {
+.inner-sec-5 p span{
     font-family: madetonny-regular;
     color: white;
     font-size: 17px;
@@ -2043,8 +2043,8 @@ img.hamburger {
 }
 .mobile-area div{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    
 }
 /*
 .header-area {
@@ -2170,12 +2170,16 @@ ul.icon-listing li a img{
 }
 .footer-3 {
     float: none;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 20px;
 }
 .footer-icon{
     display: flex;
+}
+
+.footer-icon li a img{
+    width: 30%;
 }
 
 .pddao-area-left {
