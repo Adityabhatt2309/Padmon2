@@ -1969,6 +1969,8 @@ img.scroll {
 
 .inner-header-area {
     display: none;
+    padding-top: 10px;
+
 }
 .main-body {
     height: auto;
@@ -2065,7 +2067,7 @@ img.hamburger {
 }
 
 .sec-1 h2 span {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
 

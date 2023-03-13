@@ -12,8 +12,8 @@ const Header = () => {
 			</div>
 			
 			<div class="inner-sec-2">
-				<p>We bring forth a new generation of launchpad. <br /> with padmonDAo, every project's details will be provided to our entire community, discuss and vited upon. <br />
-				we're  more than just a launchapd, we give the people what they want, and give projects what they need. <br /> the people use their voice via governance voting to bring in projects THEY want to invest in. <br />Project gain early stage investors that want to INVEST in THEM </p>
+				<p><span> We bring forth a new generation of launchpad. with padmonDAo, every project's details will be provided to our entire community, discuss and vited upon. 
+				we're  more than just a launchapd, we give the people what they want, and give projects what they need.  the people use their voice via governance voting to bring in projects THEY want to invest in. Project gain early stage investors that want to INVEST in THEM </span></p>
 			</div>
 			
 			<div class="inner-sec-3-heading">
