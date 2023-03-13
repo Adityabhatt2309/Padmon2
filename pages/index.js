@@ -16,7 +16,7 @@ export default function Home() {
         <title>Let's invest in the future of blockchain. together</title>
         <meta name="description" content="Let's invest in the future of blockchain. together" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/assets/favicon.ico" />
       </Head>
      <main>
       <section id='roadmap'>
