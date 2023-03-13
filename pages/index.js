@@ -21,7 +21,7 @@ export default function Home() {
      <main>
       <section id='roadmap'>
         <Header/>
-        <Testimonial/>
+        {/* <Testimonial/> */}
         <Features/>
         <Roadmap/>
       </section>

@@ -126,6 +126,7 @@ ul.icon-listing li a  {
     float: left;
     font-size: 50px;
     color: white;
+    /* overflow: hidden; */
     /* transition: all 0.9s; */
     margin-right: 30px;
     transition: all 1.9s ease-in-out;
@@ -134,9 +135,9 @@ ul.icon-listing li a  {
     margin-bottom: 60px;
     margin-top: 50px;
 }
-ul.icon-listing li a :hover {
-    /* transform: rotate(90deg); */
-    transform: scale(0.9);
+ul.icon-listing li :hover {
+    transform: rotate(90deg);
+    /* transform: scale(1.9); */
     
 }
 .inner-sec-4-1 img {
@@ -165,13 +166,15 @@ img.btn-image-2 {
     color: white;
     padding-bottom: 20px;	
 }
-.inner-sec-5 h3 p {
+.inner-sec-5 h3 p{
     display: block;
     font-family: Nebula-Regular;
     font-size: 24px;
     font-weight: 100;
     color: white;
-    padding-bottom: 20px;
+    padding-top: 120px;
+    text-align: center;
+    /* padding-bottom: 120px; */
 }
 .inner-sec-5 {
     margin-top: 120px;
@@ -190,7 +193,7 @@ img.btn-image-2 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    /* margin-top: 150px; */
     /* margin-left: 30px; */
 }
 .inner-sec-3-heading h3 {
@@ -504,7 +507,7 @@ div#iinsec-8 {
     padding-top: 40px;
 }
 div#second-9 {
-    margin-top: 150px;
+    margin-top: 1200px;
 }
 div#rd-map-sec-1 {
     margin-top: 150px;
@@ -2008,6 +2011,9 @@ img.scroll {
   background-color: #00002d;
   width: 100%;
 }
+div#second-9 {
+    margin-top: 100px;
+}
 
 .overlay-content a {
     font-family: Nebula-Regular;
@@ -2106,6 +2112,11 @@ ul.icon-listing li a img {
     margin-bottom: 20px;
 
 }
+ul.icon-listing li {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+}
 ul.icon-listing{
     width: 100%;
     justify-content: center;
@@ -2134,6 +2145,7 @@ ul.icon-listing li a img{
 .inner-sec-7{
     display: flex;
     flex-direction: column;
+    gap: 10;
 }
 .inner-sec-7-1 {
     width: 100%;

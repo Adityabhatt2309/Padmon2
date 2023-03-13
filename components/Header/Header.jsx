@@ -4,6 +4,7 @@ import { BsTwitter } from 'react-icons/bs';
 import { BsTelegram } from 'react-icons/bs';
 import { BsDiscord } from 'react-icons/bs';
 import { AiOutlineMedium } from 'react-icons/ai';
+import Testimonial from '../Testimonial/Testimonial';
 
 const Header = () => {
   return (
@@ -54,10 +55,25 @@ const Header = () => {
 				<div class="clear"></div>
 			</div>
 			
-			
 			<div class="inner-sec-5">
 				<h3><span>Collect exclusive set of NFTS and have</span> <span>the power to CHANGE</span> </h3>
 				<h3><p>Come for the Art, Stay for the Power!</p> </h3>
+				<div class="sec-7">
+		<div class="inner-sec-7">
+			
+		<div class="inner-sec-7-1">
+				<img  src="/assets/videos/Tier1Animvideo.gif" />
+			</div>	
+			<div class="inner-sec-7-1">
+				<img  src="/assets/videos/Tier2Animvideo.gif" />
+			</div>	
+
+			<div class="inner-sec-7-1">
+				<img  src="/assets/videos/Tier3Animvideo.gif" />
+			</div>			
+	</div>
+				</div> 
+				<Testimonial/>
 				<p> <span> Depending on which level of PadMonkey NFT you stake for, you can have the opportunity to invest more and gain a greater position of voting 
 				power in the community! We have Three tiered NFT levels. All of which gain access to our community resources, as well as: </span></p>
 			</div>
