@@ -1,5 +1,9 @@
 import React from 'react'
 import Navbar from '../Navbar'
+import { BsTwitter } from 'react-icons/bs';
+import { BsTelegram } from 'react-icons/bs';
+import { BsDiscord } from 'react-icons/bs';
+import { AiOutlineMedium } from 'react-icons/ai';
 
 const Header = () => {
   return (
@@ -25,12 +29,12 @@ const Header = () => {
 			
 			<div class="inner-sec-3" >
 				<ul class="icon-listing">
-					<li><a href="#"><img src="/assets/icon-1.png" /></a></li>
-					<li><a href="#"><img src="/assets/icon-2.png" /></a></li>
-					<li><a href="#"><img src="/assets/icon-3.png" /></a></li>
-					<li><a href="#"><img src="/assets/icon-4.png" /></a></li>
-					<li><a href="#"><img src="/assets/icon-5.png" /></a></li>
-					<li><a href="#"><img src="/assets/icon-6.png" /></a></li>
+					<li><a href="https://twitter.com/PadmonDAO"><BsTwitter/></a></li>
+					<li><a href="https://t.me/PadmonDAO"><BsTelegram/></a></li>
+					<li><a href="https://discord.gg/m7rStPVyGG "><BsDiscord/></a></li>
+					<li><a href="https://medium.com/padmondao "><AiOutlineMedium/></a></li>
+					<li><a href="https://t.me/PadmonDAOannouncements"><BsTelegram/></a></li>
+					{/* <li><a href="#"><img src="/assets/icon-6.png" /></a></li> */}
 					<div class="clear"></div>
 				</ul>
 			</div>
@@ -53,25 +57,18 @@ const Header = () => {
 			
 			<div class="inner-sec-5">
 				<h3><span>Collect exclusive set of NFTS and have</span> <span>the power to CHANGE</span> </h3>
-				<h3><span>Come for the Art, Stay for the Power!</span> </h3>
+				<h3><p>Come for the Art, Stay for the Power!</p> </h3>
 				<p> <span> Depending on which level of PadMonkey NFT you stake for, you can have the opportunity to invest more and gain a greater position of voting 
 				power in the community! We have Three tiered NFT levels. All of which gain access to our community resources, as well as: </span></p>
 			</div>
 			
 			<div class="inner-sec6-1">
-				<ul>
-					<li>The power to participate in all upcoming presales</li>
-					<li>The power to vote</li>
-					<li>The power to create community proposals</li>
-					<li>The power to stake for rewards</li>
-					<li>Additional Utilities to Come</li>
-
-				</ul>
-				{/* <p>The power to participate in all upcoming presales</p>
-				<p>The power to vote</p>
-				<p>The power to create community proposals </p>
-				<p>The power to stake for rewards</p>
-				<p>Additional Utilities to Come</p> */}
+				
+					<p>The power to participate in all upcoming presales</p>
+					<p>The power to vote</p>
+					<p>The power to create community proposals</p>
+					<p>The power to stake for rewards</p>
+					<p>Additional Utilities to Come</p>
 				<div class="clear"></div>
 			</div>
 			

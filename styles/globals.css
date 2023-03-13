@@ -48,13 +48,13 @@ body
     float: left;
 }
 .header-left a img {
-    width: 40%;
+    width: 60%;
 }
 .header-right {
     width: 60%;
     float: left;
     margin-left: 0px;
-    margin-top: 12px;
+    margin-top: 32px;
 }
 .sec-1 .inner-sec-1 {
     margin-top: 80px;
@@ -82,7 +82,7 @@ body
 .header-right-1 {
     width: 17%;
     float: right;
-margin-top: 10px;	
+margin-top: 28px;	
 }
 
 .mobile-area {
@@ -121,18 +121,23 @@ ul.icon-listing li {
     list-style: none;
     justify-content: center;
 }
-ul.icon-listing li a img {
+ul.icon-listing li a  {
     width: 6.5%;
     float: left;
-    transition: all 0.9s;
+    font-size: 50px;
+    color: white;
+    /* transition: all 0.9s; */
     margin-right: 30px;
+    transition: all 1.9s ease-in-out;
 }
 .inner-sec-3 {
     margin-bottom: 60px;
     margin-top: 50px;
 }
-ul.icon-listing li a img:hover {
-    transform: rotate(90deg);
+ul.icon-listing li a :hover {
+    /* transform: rotate(90deg); */
+    transform: scale(0.9);
+    
 }
 .inner-sec-4-1 img {
     float: left;
@@ -153,15 +158,20 @@ img.btn-image-2 {
 .inner-sec-2 {
     margin: 30px 0 30px 0;
 }
-.inner-sec-5 h3 {
+.inner-sec-5 h3 span{
     font-family: Nebula-Regular;
     font-size: 38px;
     font-weight: 100;
     color: white;
     padding-bottom: 20px;	
 }
-.inner-sec-5 h3 span {
+.inner-sec-5 h3 p {
     display: block;
+    font-family: Nebula-Regular;
+    font-size: 24px;
+    font-weight: 100;
+    color: white;
+    padding-bottom: 20px;
 }
 .inner-sec-5 {
     margin-top: 120px;
@@ -176,9 +186,12 @@ img.btn-image-2 {
     text-align: left;
 }
 .inner-sec-7-1 {
-    width: 23%;
-    float: left;
-    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    /* margin-left: 30px; */
 }
 .inner-sec-3-heading h3 {
     font-family: Nebula-Regular;
@@ -193,7 +206,7 @@ img.btn-image-2 {
     flex-direction: row;
     justify-content: space-between;
 }
-.inner-sec-7-1 video 
+.inner-sec-7-1 img 
 {
 	width:100%;
 }
@@ -437,13 +450,13 @@ div#demo5 {
     float: left;
 }
 .footer-1 a img {
-    width: 100%;
+    width: 50%;
 }
 .footer-2 {
     width: 62%;
     float: left;
     text-align: center;
-    margin-top: 16px;
+    margin-top:32px;
 }
 .footer {
     margin: 200px 0 60px 0;
@@ -457,7 +470,7 @@ div#demo5 {
 .footer-3 {
     width: 20%;
     float: right;
-    margin-top: 10px;
+    margin-top: 22px;
 }
 .footer-3 ul {
     list-style: none;
@@ -1704,12 +1717,13 @@ div#iinsec-8 {
     margin: 0 auto;
 }
 
-.inner-sec6-1 ul li {
+.inner-sec6-1 p {
     font-family: Nebula-Regular;
     color: white;
-    /* border: 2px solid #0082ff; */
+    border: 2px solid #0082ff;
     padding: 2px 2px;
     float: left;
+    width: fit-content;
     font-size: 15px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -1717,6 +1731,10 @@ div#iinsec-8 {
 
 .inner-sec6-1 {
     margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .inner-pad-sec-3-left {
 	width: 48%;
@@ -2004,8 +2022,9 @@ img.scroll {
     transition: all 0.9s;
 }
 
-.inner-sec6-1 ul li {
-    display: block;
+.inner-sec6-1{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     text-align: center;
 }
@@ -2062,6 +2081,17 @@ img.hamburger {
     font-weight: 100;
     text-align: center;
 }
+.inner-sec-5 h3 p {
+    display: block;
+    font-family: Nebula-Regular;
+    background: -webkit-linear-gradient(0deg,#ffffff -10.87%,#46D8D1 42.29%, #3897F2 55.29%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+}
+
 .inner-sec-5  p{
     text-align: center;
 }
@@ -2159,10 +2189,27 @@ ul.icon-listing li a img{
 {
     width: 100%;	
 }
-.footer-1 {
-    width: 50%;
-    float: none;
+.footer-1 a{
+    width: 100%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-1 a img{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inner-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .footer-2 {
     width: 100%;

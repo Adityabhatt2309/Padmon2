@@ -10,16 +10,16 @@ const Testimonial = () => {
 			
 		<div class="inner-sec-7-1">
 				{/* <img src="/assets/videos/Tier1.mp4" /> */}
-				<video  src="/assets/videos/Tier2.mp4" autoPlay="true" />
+				<img  src="/assets/videos/Tier1Animvideo.gif" />
 			</div>	
 			<div class="inner-sec-7-1">
 				{/* <img src="/assets/videos/Tier1.mp4" /> */}
-				<video  src="/assets/videos/Tier3.mp4" autoPlay="true" />
+				<img  src="/assets/videos/Tier2Animvideo.gif" />
 			</div>	
 
 			<div class="inner-sec-7-1">
 				{/* <img src="/assets/videos/Tier1.mp4" /> */}
-				<video  src="/assets/videos/Tier1.mp4" autoPlay="true" />
+				<img  src="/assets/videos/Tier3Animvideo.gif" />
 			</div>			
 						
 			<div class="clear"></div>
