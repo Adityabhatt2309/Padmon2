@@ -1734,7 +1734,7 @@ div#iinsec-8 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 .inner-pad-sec-3-left {
 	width: 48%;
