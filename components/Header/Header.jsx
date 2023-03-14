@@ -17,8 +17,13 @@ const Header = () => {
 			</div>
 			
 			<div className="inner-sec-2">
-				<p> We bring forth a new generation of launchpad. with padmonDAo, every project's details will be provided to our entire community, discuss and vited upon. 
-				we're  more than just a launchapd, we give the people what they want, and give projects what they need.  the people use their voice via governance voting to bring in projects THEY want to invest in. Project gain early stage investors that want to INVEST in THEM </p>
+				<p> We bring forth a new generation of launchpad. PadmonDAO is more than just a place for presales. 
+
+Our community gets to use their voice via governance voting to be a part of the process. Together, we bring in projects our community WANTS to invest in. 
+
+We provide educational content, live research sessions; create an atmosphere of informed, passionate investors. 
+
+Projects then gain many more early stage investors that want to truly see them thrive.</p>
 			</div>
 			
 			<div class="inner-sec-3-heading">
@@ -56,7 +61,7 @@ const Header = () => {
 			</div> */}
 			
 			<div class="inner-sec-5">
-				<h3><span>Collect exclusive set of NFTS and have</span> <span>the power to CHANGE</span> </h3>
+				<h3><span>Our Collect exclusive set of NFTS and have</span> <span>the power to CHANGE</span> </h3>
 				<h3><p>Come for the Art, Stay for the Power!</p> </h3>
 				<div class="sec-7">
 		<div class="inner-sec-7">

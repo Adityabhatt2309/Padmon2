@@ -127,10 +127,13 @@ margin-top: 28px;
     font-weight: 100;
 }
 .inner-sec-2 p {
-    font-family: Nebula-Regular;
+    /* font-family: Nebula-Regular; */
+    font-family: madetonny-regular;
     color: white;
     font-size: 24px;
     font-weight: lighter;
+    text-align: center;
+    line-height: 32pt; 
 }
 ul.icon-listing li {
     list-style: none;
@@ -197,11 +200,12 @@ img.btn-image-2 {
     text-align: left;
 }
 .inner-sec-5 p span{
-    font-family: Nebula-Regular;
+    font-family: madetonny-regular;
     color: white;
-    font-size: 17px;
+    font-size: 24px;
     font-weight: 200;
     text-align: left;
+    line-height: 22pt;
 }
 .inner-sec-7-1 {
     display: flex;
@@ -527,7 +531,7 @@ div#iinsec-8 {
     padding-top: 40px;
 }
 div#second-9 {
-    margin-top: 1200px;
+    margin-top: 1400px;
 }
 div#rd-map-sec-1 {
     margin-top: 150px;
@@ -1741,13 +1745,13 @@ div#iinsec-8 {
 }
 
 .inner-sec6-1 p {
-    font-family: Nebula-Regular;
+    font-family:  madetonny-regular;
     color: white;
     border: 2px solid #0082ff;
     padding: 2px 2px;
     float: left;
     width: fit-content;
-    font-size: 15px;
+    font-size: 22px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
@@ -1985,6 +1989,17 @@ img.scroll {
     padding-top: 10px;
 
 }
+.inner-sec-5 h3 span {
+    display: block;
+    text-align: center;
+    font-family: Nebula-Regular;
+    background: -webkit-linear-gradient(0deg,#ffffff -10.87%,#46D8D1 42.29%, #3897F2 55.29%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 38px;
+    font-weight: 100;
+    text-align: center;
+}
 
 
 
@@ -2105,6 +2120,7 @@ img.hamburger {
 
 .inner-sec-5 h3 span {
     display: block;
+    text-align: center;
     font-family: Nebula-Regular;
     background: -webkit-linear-gradient(0deg,#ffffff -10.87%,#46D8D1 42.29%, #3897F2 55.29%);
     -webkit-background-clip: text;
@@ -2203,13 +2219,14 @@ ul.icon-listing li a img{
 }
 .inner-sec-8{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-left: 8px;
 }
 .inner-sec-8-1 a img {
-    width: 100%;
+    width: 70%;
     margin-bottom: 20px;
 }
 
@@ -2325,6 +2342,7 @@ span.ipprc-con-span-2 {
     font-size: 17px;
     font-weight: 200;
     text-align: center;
+
 }
 p.tagg-1 {
     width: 100%;
