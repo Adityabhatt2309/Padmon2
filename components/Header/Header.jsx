@@ -43,7 +43,7 @@ const Header = () => {
 			
 			
 			
-			<div class="inner-sec-4">
+			{/* <div class="inner-sec-4">
 				<div class="inner-sec-4-1" id="is4">
 					<a href="#"><img src="/assets/group-10.png" class="btn-image-1" /></a>
 				</div>
@@ -53,7 +53,7 @@ const Header = () => {
 				</div>
 				
 				<div class="clear"></div>
-			</div>
+			</div> */}
 			
 			<div class="inner-sec-5">
 				<h3><span>Collect exclusive set of NFTS and have</span> <span>the power to CHANGE</span> </h3>

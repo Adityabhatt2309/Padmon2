@@ -33,11 +33,11 @@ const Testimonial = () => {
 				<a href="#"><img src="/assets/buy-btn-1.png" /></a>
 			</div>
 			
-			<div class="inner-sec-8-1 ins8-1">
+			{/* <div class="inner-sec-8-1 ins8-1">
 				<a href="#"><img src="/assets/buy-btn-2.png" /></a>
-			</div>			
+			</div>			 */}
 			
-			<div class="clear"></div>
+			{/* <div class="clear"></div> */}
 		</div>
 	</div>
 </div>

@@ -22,9 +22,9 @@ const Navbar = () => {
                                     <li><a href="#">ido launchpad</a></li>
                                     <div className="clear"></div>					</ul>
                             </div>
-                            <div className="header-right-1">
+                            {/* <div className="header-right-1">
                                 <span><a href="#"><img src="/assets/group-1.png" /></a></span>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
