@@ -33,17 +33,16 @@ Projects then gain many more early stage investors that want to truly see them t
 			
 			
 			
-			<div class="inner-sec-3" >
+			{/* <div class="inner-sec-3" >
 				<ul class="icon-listing">
 					<li><a href="https://twitter.com/PadmonDAO"><BsTwitter/></a></li>
 					<li><a href="https://t.me/PadmonDAO"><BsTelegram/></a></li>
 					<li><a href="https://discord.gg/m7rStPVyGG "><BsDiscord/></a></li>
 					<li><a href="https://medium.com/padmondao "><AiOutlineMedium/></a></li>
 					<li><a href="https://t.me/PadmonDAOannouncements"><BsTelegram/></a></li>
-					{/* <li><a href="#"><img src="/assets/icon-6.png" /></a></li> */}
 					<div class="clear"></div>
 				</ul>
-			</div>
+			</div> */}
 			
 			
 			
@@ -61,7 +60,7 @@ Projects then gain many more early stage investors that want to truly see them t
 			</div> */}
 			
 			<div class="inner-sec-5">
-				<h3><span>Our Collect exclusive set of NFTS and have</span> <span>the power to CHANGE</span> </h3>
+				<h3><span>Collect Our Exclusive NFT's and Have the Power to Change</span> </h3>
 				<h3><p>Come for the Art, Stay for the Power!</p> </h3>
 				<div class="sec-7">
 		<div class="inner-sec-7">
