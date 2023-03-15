@@ -13,7 +13,7 @@ const Header = () => {
         <div class="sec-1">
 		<div class="container">
 			<div class="inner-sec-1">
-				<h2> <span> Let's invest in the future of blockchain. together </span></h2>
+				<h2> <span> Let's invest in the future of blockchain. together. </span></h2>
 			</div>
 			
 			<div className="inner-sec-2">
