@@ -51,7 +51,7 @@ body
     width: 60%;
 }
 .header-right {
-    width: 60%;
+    width: 80%;
     float: left;
     margin-left: 0px;
     margin-top: 32px;
@@ -2059,6 +2059,15 @@ div#second-9 {
 .overlay-content a {
     font-family: Nebula-Regular;
     color: white;
+    text-decoration: none;
+    padding-block: 10px;
+}
+.overlay-content a:hover {
+    font-family: Nebula-Regular;
+    color: white;
+    background: -webkit-linear-gradient(0deg,#ffffff -10.87%,#46D8D1 42.29%, #3897F2 55.29%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-decoration: none;
     padding-block: 10px;
 }

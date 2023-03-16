@@ -20,6 +20,7 @@ const Navbar = () => {
                                     <li><a href="#">features</a></li>
                                     <li><a href="#">Projects</a></li>
                                     <li><a href="#">ido launchpad</a></li>
+                                    <li><a href="https://padmondao.gitbook.io" target="_blank">whitepaper</a></li>
                                     <div className="clear"></div>					</ul>
                             </div>
                             {/* <div className="header-right-1">
@@ -49,6 +50,7 @@ const Navbar = () => {
                             <div class="overlay-content">
                                 <a href="#">Game</a>
                                 <a href="#">NFTs</a>
+                                <a href="https://padmondao.gitbook.io" target="_blank">whitepaper</a>
                                 <a href="#">Unlock wallet</a>
                                 
                                 
