@@ -17,9 +17,9 @@ const Footer = () => {
 
 			<div class="footer-3">
 				<ul className='footer-icon'>
-					<li><a href="#"><img src="/assets/twitter-icon.png" /></a></li>
-					<li><a href="#"><img src="/assets/discord-icon.png" /></a></li>
-					<li><a href="#"><img src="/assets/telegram-icon.png" /></a></li>
+					<li><a href="https://twitter.com/PadmonDAO"><img src="/assets/twitter-icon.png" /></a></li>
+					<li><a href="https://discord.gg/m7rStPVyGG"><img src="/assets/discord-icon.png" /></a></li>
+					<li><a href="https://t.me/PadmonDAO"><img src="/assets/telegram-icon.png" /></a></li>
 					<div class="clear"></div>
 				</ul>
 			</div>
