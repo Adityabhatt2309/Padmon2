@@ -65,7 +65,7 @@ const Details = () => {
                 </div>
 
                 <div class="pddao-area">
-	<div class="container">
+	<div class="details-area container">
 		<div class="pddao-area-left">
 			<div class="inner-pddao-area-left">
 				<div class="inner-pddao-area-left-content">

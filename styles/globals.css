@@ -109,7 +109,13 @@ margin-top: 28px;
 .details-area{
     /* display: grid;
     grid-template-columns: 2fr 1fr; */
-    display: flex;
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 30px;
 }
 .main-body {
     background-image: url(/assets/bgg-1-min.jpg);
@@ -892,7 +898,7 @@ body.nft-1 .main-body {
 
 .active-section-1 {
     background-image: url(/assets/rect-15.png);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100px;
     width: 95%;
@@ -980,7 +986,7 @@ body.nft-1 .main-body {
 .inner-active-section-3 {
     width: 20%;
     float: left;
-    margin-top: 25px;
+    margin-top: 35px;
     margin-right: 60px;
 }
 .inner-active-section-3 h3 span {
@@ -998,7 +1004,7 @@ body.nft-1 .main-body {
 .inner-active-section-4 {
     width: 5%;
     float: left;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 .inner-active-section-4 h3 
 {
@@ -1016,7 +1022,7 @@ body.nft-1 .main-body {
 .inner-active-section-5 {
 	width: 18%;
     float: right;
-    margin-top: 20px;
+    margin-top: 28px;
 }
 .inner-active-section-5 img 
 {
@@ -1161,13 +1167,13 @@ div#inval {
 .inner-nft-vote-area-left {
     width: 28%;
     float: left;
-    margin-left: 85px;
+    margin-left: 5% !important;
     text-align: center;
     margin-top: 50px;	
 }
 .inner-inval-1 {
     background-image: url(/assets/Union-1.png);
-    background-size: cover;
+    background-size: 100% 100%;
     height: 94px;
     background-repeat: no-repeat;
 }
@@ -1181,7 +1187,7 @@ div#inval {
 }
 .inner-inval-2 {
     background-image: url(/assets/Union.png);
-    background-size: cover;
+    background-size: 100% 100%;
     height: 95px;
     background-repeat: no-repeat;
 }
@@ -1201,10 +1207,11 @@ span.in-inval-2 {
 
 .inner-nft-vote-area {
     background-image: url(/assets/nfv-bg-image-min.png);
-    background-size: cover;
+    background-size: 100% 100%;
     padding: 50px 50px;
+    height: 300px;
     border-right: 2.5px solid #0082ff;
-    background-position: left;
+    /* background-position: left; */
 }
 .nft-vote-area {
     margin-top: 60px;
@@ -1922,8 +1929,8 @@ img.scroll {
     margin-top: 130px;
 }
 .pddao-area-left {
-    width: 40%;
-    float: left;
+    /* width: 40%; */
+    /* float: left; */
     padding: 40px 20px;
     background-image: url(/assets/rrr-2.png);
     background-size: cover;
@@ -1933,8 +1940,8 @@ img.scroll {
 }
 
 .pddao-area-right {
-    width: 40%;
-    float: right;
+    /* width: 40%; */
+    /* float: right; */
     padding: 20px 20px;
     background-image: url(/assets/rrr-2.png);
     background-size: cover;
@@ -2373,11 +2380,12 @@ ul.icon-listing li a img{
 }
 
 .pddao-area-left {
-    width: 100%;
+    /* width: 85%; */
 }
 .pddao-area-right {
-    width: 100%;
+    /* width: 85%; */
     margin-top: 40px;
+    padding-bottom: 30px;
 }
 .inner-post-page-1-left {
     width: 95%;
@@ -2803,6 +2811,45 @@ div#iias22 {
     background-repeat: no-repeat;
     background-position: bottom;
     height: auto;	
+}
+.details-area{
+    /* display: grid;
+    grid-template-columns: 2fr 1fr; */
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    gap:30px;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+}
+.main-body2{
+    background-image: url(/assets/bgg-1-min.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 1500px;	
+}
+.inner-nft-vote-area {
+    background-image: url(/assets/nfv-bg-image-min.png);
+    background-size: 100% 100%;
+    padding: 50px 50px;
+    height: 100%;
+    border-right: 2.5px solid #0082ff;
+    /* background-position: left; */
+}
+.inner-inval-1 h4 {
+    font-family: Nebula-Regular;
+    color: white;
+    line-height: 94px;
+    font-size: 22px;
+    margin: 0px;
+}
+span.in-inval-1 {
+    font-size: 18px;
+}
+span.in-inval-2 {
+    position: relative;
+    top: 0px;
 }
 }
 

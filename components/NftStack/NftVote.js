@@ -42,7 +42,6 @@ const NftVote = () => {
 			<div class="inner-nft-vote-area-one">
 				<h3>Caste your Vote now</h3>
 			</div>
-		
 			<div class="inner-nft-vote-area-left" id="inval">
 				<div class="inner-inval-1">
 					<h4>Yes</h4>
@@ -70,8 +69,6 @@ const NftVote = () => {
 					<h4><span class="in-inval-1">450</span> <span class="in-inval-2">Votes</span></h4>
 				</div>
 			</div>			
-			
-			<div class="clear"></div>
 		</div>
 	</div>
 </div>
