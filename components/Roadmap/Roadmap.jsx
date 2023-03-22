@@ -3,32 +3,32 @@ import React from 'react'
 const Roadmap = () => {
   return (
     <div>
-        <div class="sec-9" id="rd-map-sec-1">
-	<div class="container">
-		<div class="inner-sec-9">
+        <div className="sec-9" id="rd-map-sec-1">
+	<div className="container">
+		<div className="inner-sec-9">
 			<h2>Roadmap</h2>
-			<p class="deve-para">Development takes time. Here, find our milestone-based roadmap.</p>
+			<p className="deve-para">Development takes time. Here, find our milestone-based roadmap.</p>
 		</div>
 	</div>
 </div>
 
 
-<div class="sec-11">
-	<div class="container">
-		<div class="inner-sec-11">
-			<div class="roadmap-sec rd-sec-1">
-				<div class="roadmap-sec-one">
-					<div class="roadmap-sec-one-left">
+<div className="sec-11">
+	<div className="container">
+		<div className="inner-sec-11">
+			<div className="roadmap-sec rd-sec-1">
+				<div className="roadmap-sec-one">
+					<div className="roadmap-sec-one-left">
 						<h3>Q1</h3>
 					</div>					
-					<div class="roadmap-sec-one-right">
+					<div className="roadmap-sec-one-right">
 						<img src="/assets/arrow-1.png" />
 					</div>					
-					<div class="clear"></div>
+					<div className="clear"></div>
 				</div>
 				
-				<div class="roadmap-sec-two">
-					<ul class="ull-ihh">
+				<div className="roadmap-sec-two">
+					<ul className="ull-ihh">
 						<li>Marketing Campaigns Commenced</li>
 						<li>Launch $PDAO</li>
 						<li>NFT Staking Platform Live</li>
@@ -42,20 +42,20 @@ const Roadmap = () => {
 			</div>
 			
 			
-			<div class="roadmap-sec rd-sec-2">
-				<div class="roadmap-sec-one">
-					<div class="roadmap-sec-one-left">
+			<div className="roadmap-sec rd-sec-2">
+				<div className="roadmap-sec-one">
+					<div className="roadmap-sec-one-left">
 						<h3>Q2</h3>
 					</div>
 					
-					<div class="roadmap-sec-one-right">
+					<div className="roadmap-sec-one-right">
 						<img src="/assets/arrow-1.png" />
 					</div>					
-					<div class="clear"></div>
+					<div className="clear"></div>
                 </div>
 				
-				<div class="roadmap-sec-two">
-					<ul class="ull-ihh">
+				<div className="roadmap-sec-two">
+					<ul className="ull-ihh">
 						<li>Biweekly Workshops Implemented</li>
 						<li>Community Proposals and Voting Officially Begin</li>
 						<li>First Presales Voted In and Filled</li>
@@ -67,20 +67,20 @@ const Roadmap = () => {
 			</div>
 
 
-			<div class="roadmap-sec rd-sec-3">
-				<div class="roadmap-sec-one">
-					<div class="roadmap-sec-one-left">
+			<div className="roadmap-sec rd-sec-3">
+				<div className="roadmap-sec-one">
+					<div className="roadmap-sec-one-left">
 						<h3>Q3</h3>
 					</div>
 					
-					<div class="roadmap-sec-one-right">
+					<div className="roadmap-sec-one-right">
 						<img src="/assets/arrow-3.png" />
 					</div>					
-					<div class="clear"></div>
+					<div className="clear"></div>
 				</div>
 				
-				<div class="roadmap-sec-two">
-					<ul class="ull-ihh">
+				<div className="roadmap-sec-two">
+					<ul className="ull-ihh">
 						<li>To Be Determined By You!</li>
 						<li>One of the fantastic aspects of our DAO</li>
 						<li>The future is rife with possibilities!</li>
@@ -92,7 +92,7 @@ const Roadmap = () => {
 				
 			</div>			
 
-			<div class="clear"></div>
+			<div className="clear"></div>
 		</div>
 	</div>
 </div>

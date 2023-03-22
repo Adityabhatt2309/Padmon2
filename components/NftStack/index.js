@@ -27,9 +27,9 @@ const [nftPool,setNftPool] = useState(0);
                             </div>
                             <div className="header-right">
                                 <ul>
-                                    <li><a href="#">NFT market</a></li>
-                                    <li><a href="#">nft</a></li>
-                                    <li><a href="#">projects</a></li>
+                                    <li><a href="/">NFT market</a></li>
+                                    <li><a href="/nft">nft</a></li>
+                                    <li><a href="/">projects</a></li>
                                     {/* <li><a href="https://padmondao.gitbook.io" target="_blank">whitepaper</a></li> */}
                                     {/* <div className="clear"></div>	 */}
 								</ul>
@@ -45,13 +45,13 @@ const [nftPool,setNftPool] = useState(0);
 <!---------------------Mobile-Menu-------------------------------> */}
 
 
-<div class="mobile-area">
-                    <div class="container">
-                        <div class="mobile-logo">
+<div className="mobile-area">
+                    <div className="container">
+                        <div className="mobile-logo">
                             <a href="/"><img src="/assets/padmondaoblueoutline-1.png" /></a>
                         </div>
 
-                        <div class="mobile-menu">
+                        <div className="mobile-menu">
                         {
                                 show?<span style={{ fontSize: "30px", cursor: "pointer",color:"white",fontSize:"30px"}} onClick={()=>{setShow(!show)}}><AiOutlineClose className='hamburger'/></span>:<span style={{ fontSize: "30px", cursor: "pointer",color:"white",fontSize:"30px" }} onClick={()=>{setShow(!show)}}><AiOutlineMenu className='hamburger'/></span>
                             }
@@ -61,12 +61,12 @@ const [nftPool,setNftPool] = useState(0);
                     </div>
                     {
                             
-                            show?<div id="myNav" class="overlay">
-                            <div class="overlay-content">
-                                <a href="#">Game</a>
-                                <a href="#">NFTs</a>
+                            show?<div id="myNav" className="overlay">
+                            <div className="overlay-content">
+                                <a href="/">Game</a>
+                                <a href="/nft">NFTs</a>
                                 <a href="https://padmondao.gitbook.io" target="_blank">whitepaper</a>
-                                <a href="#">Unlock wallet</a>
+                                <a href="/">Unlock wallet</a>
                                 
                                 
                                 
@@ -82,15 +82,15 @@ const [nftPool,setNftPool] = useState(0);
 	
 	
 	
-<div class="nft-section-1">
-	<div class="container">
-		<div class="inner-nft-section-1">
-			<div class="nft-nd-s-1">
+<div className="nft-section-1">
+	<div className="container">
+		<div className="inner-nft-section-1">
+			<div className="nft-nd-s-1">
 				<ul>
 					<li className={`${nftPool == 0 ?"nft-li-1":""}`} ><a href="#" onClick={()=>{setNftPool(0)}}>NFT POOL</a></li>
 					<li className={`${nftPool == 1 ?"nft-li-1":""}`}><a href="#" onClick={()=>{setNftPool(1)}}>NFT FARM</a></li>
 					<li className={`${nftPool == 2 ?"nft-li-1":""}`}><a href="#" onClick={()=>{setNftPool(2)}}>NFT VOTE</a></li>
-					<div class="clear"></div>
+					<div className="clear"></div>
 				</ul>
 			</div>
 		</div>

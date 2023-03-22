@@ -26,18 +26,18 @@ const Testimonial = () => {
 
 
 
-<div class="sec-8">
-	<div class="container">
-		<div class="inner-sec-8" id="iinsec-8">
-			<div class="inner-sec-8-1" id="is8-1">
+<div className="sec-8">
+	<div className="container">
+		<div className="inner-sec-8" id="iinsec-8">
+			<div className="inner-sec-8-1" id="is8-1">
 				<a href="#"><img src="/assets/buy-btn-1.png" /></a>
 			</div>
 			
-			{/* <div class="inner-sec-8-1 ins8-1">
+			{/* <div className="inner-sec-8-1 ins8-1">
 				<a href="#"><img src="/assets/buy-btn-2.png" /></a>
 			</div>			 */}
 			
-			{/* <div class="clear"></div> */}
+			{/* <div className="clear"></div> */}
 		</div>
 	</div>
 </div>

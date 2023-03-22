@@ -10,9 +10,9 @@ const Header = () => {
   return (
     <div className='main-body'>
         <Navbar/>
-        <div class="sec-1">
-		<div class="container">
-			<div class="inner-sec-1">
+        <div className="sec-1">
+		<div className="container">
+			<div className="inner-sec-1">
 				<h2> <span> Let's invest in the future of blockchain. together. </span></h2>
 			</div>
 			
@@ -26,53 +26,53 @@ We provide educational content, live research sessions; create an atmosphere of 
 Projects then gain many more early stage investors that want to truly see them thrive.</p>
 			</div>
 			
-			<div class="inner-sec-3-heading">
+			<div className="inner-sec-3-heading">
 				<h3>We Learn Together. We Grow Together. We Invest Together.</h3>
 			</div>
 			
 			
 			
 			
-			{/* <div class="inner-sec-3" >
-				<ul class="icon-listing">
+			{/* <div className="inner-sec-3" >
+				<ul className="icon-listing">
 					<li><a href="https://twitter.com/PadmonDAO"><BsTwitter/></a></li>
 					<li><a href="https://t.me/PadmonDAO"><BsTelegram/></a></li>
 					<li><a href="https://discord.gg/m7rStPVyGG "><BsDiscord/></a></li>
 					<li><a href="https://medium.com/padmondao "><AiOutlineMedium/></a></li>
 					<li><a href="https://t.me/PadmonDAOannouncements"><BsTelegram/></a></li>
-					<div class="clear"></div>
+					<div className="clear"></div>
 				</ul>
 			</div> */}
 			
 			
 			
 			
-			{/* <div class="inner-sec-4">
-				<div class="inner-sec-4-1" id="is4">
-					<a href="#"><img src="/assets/group-10.png" class="btn-image-1" /></a>
+			{/* <div className="inner-sec-4">
+				<div className="inner-sec-4-1" id="is4">
+					<a href="#"><img src="/assets/group-10.png" className="btn-image-1" /></a>
 				</div>
 				
-				<div class="inner-sec-4-1">
-					<a href="#"><img src="/assets/group-11.png" class="btn-image-2" /></a>
+				<div className="inner-sec-4-1">
+					<a href="#"><img src="/assets/group-11.png" className="btn-image-2" /></a>
 				</div>
 				
-				<div class="clear"></div>
+				<div className="clear"></div>
 			</div> */}
 			
-			<div class="inner-sec-5">
+			<div className="inner-sec-5">
 				<h3><span>Collect Our Exclusive NFT's and Have the Power to Change</span> </h3>
 				<h3><p>Come for the Art, Stay for the Power!</p> </h3>
-				<div class="sec-7">
-		<div class="inner-sec-7">
+				<div className="sec-7">
+		<div className="inner-sec-7">
 			
-		<div class="inner-sec-7-1">
+		<div className="inner-sec-7-1">
 				<img  src="/assets/videos/Tier1Animvideo.gif" />
 			</div>	
-			<div class="inner-sec-7-1">
+			<div className="inner-sec-7-1">
 				<img  src="/assets/videos/Tier2Animvideo.gif" />
 			</div>	
 
-			<div class="inner-sec-7-1">
+			<div className="inner-sec-7-1">
 				<img  src="/assets/videos/Tier3Animvideo.gif" />
 			</div>			
 	</div>
@@ -82,14 +82,14 @@ Projects then gain many more early stage investors that want to truly see them t
 				power in the community! We have Three tiered NFT levels. All of which gain access to our community resources, as well as: </span></p>
 			</div>
 			
-			<div class="inner-sec6-1">
+			<div className="inner-sec6-1">
 				
 					<p>The power to participate in all upcoming presales</p>
 					<p>The power to vote</p>
 					<p>The power to create community proposals</p>
 					<p>The power to stake for rewards</p>
 					<p>Additional Utilities to Come</p>
-				<div class="clear"></div>
+				<div className="clear"></div>
 			</div>
 			
 			

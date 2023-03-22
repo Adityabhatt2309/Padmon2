@@ -4,7 +4,8 @@ import Head from 'next/head'
 
 const NFT = () => {
   return (
-    <> <Head>
+    <> 
+    <Head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
      {/* <meta charSet="utf-8" />
      <meta name="description" content="Let's invest in the future of blockchain. together" />

@@ -18,9 +18,9 @@ const Navbar = () => {
 
                             <div className="header-right">
                                 <ul>
-                                    <li><a href="#">features</a></li>
-                                    <li><a href="#">Projects</a></li>
-                                    <li><a href="#">ido launchpad</a></li>
+                                    <li><a href="/">features</a></li>
+                                    <li><a href="/">Projects</a></li>
+                                    <li><a href="/launchpad">ido launchpad</a></li>
                                     <li><a href="https://padmondao.gitbook.io" target="_blank">whitepaper</a></li>
                                     <div className="clear"></div>					</ul>
                             </div>
@@ -31,13 +31,13 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div class="mobile-area">
-                    <div class="container">
-                        <div class="mobile-logo">
+                <div className="mobile-area">
+                    <div className="container">
+                        <div className="mobile-logo">
                             <a href="/"><img src="/assets/padmondaoblueoutline-1.png" /></a>
                         </div>
 
-                        <div class="mobile-menu" onClick={()=>{setIsOpen(!open)}}>
+                        <div className="mobile-menu" onClick={()=>{setIsOpen(!open)}}>
                         {
                                 show?<span style={{ fontSize: "30px", cursor: "pointer",color:"white",fontSize:"30px"}} onClick={()=>{setShow(!show)}}><AiOutlineClose className='hamburger'/></span>:<span style={{ fontSize: "30px", cursor: "pointer",color:"white",fontSize:"30px" }} onClick={()=>{setShow(!show)}}><AiOutlineMenu className='hamburger'/></span>
                             }
@@ -47,12 +47,12 @@ const Navbar = () => {
                     </div>
                     
                     {
-                            show?<div id="myNav" class="overlay">
-                            <div class="overlay-content">
-                                <a href="#">Game</a>
-                                <a href="#">NFTs</a>
+                            show?<div id="myNav" className="overlay">
+                            <div className="overlay-content">
+                                <a href="/">Game</a>
+                                <a href="/nft">NFTs</a>
                                 <a href="https://padmondao.gitbook.io" target="_blank">whitepaper</a>
-                                <a href="#">Unlock wallet</a>
+                                <a href="/">Unlock wallet</a>
                                 
                                 
                                 

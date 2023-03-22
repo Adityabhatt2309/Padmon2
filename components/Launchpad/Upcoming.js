@@ -79,54 +79,54 @@ const LaunchpadData =[
 const Upcoming = () => {
   return (
     <div>
-        <div class="nft-section-2" id="padmondao-section-1">
-	<div class="container">
-		<div class="inner-nft-section-2" id="inner-padmondao-section-1">
+        <div className="nft-section-2" id="padmondao-section-1">
+	<div className="container">
+		<div className="inner-nft-section-2" id="inner-padmondao-section-1">
 			<h2><span>PadmonDAo LAUNCHPAD</span></h2>
 		</div>
 	</div>
 </div>	
-<div class="padmondao-section-3">
-	<div class="container">
-		<div class="inner-padmondao-section-3">
+<div className="padmondao-section-3">
+	<div className="container">
+		<div className="inner-padmondao-section-3">
 			{
                 LaunchpadData.map((value,index)=>{
                     return(
                         <>
-                <div class="inner-pad-sec-3">
-				<div class="inner-pad-sec-3-left" id="inner-pad-sec-3-right">
-					<div class="inner-pad-sec-3-left-heading">
+                <div className="inner-pad-sec-3">
+				<div className="inner-pad-sec-3-left" id="inner-pad-sec-3-right">
+					<div className="inner-pad-sec-3-left-heading">
 						<h2><span>{value.name}</span></h2>
 					</div>
 					
-					<div class="inner-pad-sec-3-left-bar-area">
+					<div className="inner-pad-sec-3-left-bar-area">
 						<h3>{value.dataTime}</h3>
-						<img src={value.progressImage} class="scroll"/>
+						<img src={value.progressImage} className="scroll"/>
 						
-						<div class="scroll-bar-area">
-							<div class="scroll-bar-area-left">
+						<div className="scroll-bar-area">
+							<div className="scroll-bar-area-left">
 								<h4>{value.progressStart}</h4>
 							</div>
 							
-							<div class="scroll-bar-area-right">
+							<div className="scroll-bar-area-right">
 								<h4>{value.progressEnd}<span>BUSD</span></h4>
 							</div>							
 							
-							<div class="clear"></div>
+							<div className="clear"></div>
 						</div>
 						
 						
-						<div class="scroll-bar-area-person">
-							<div class="scroll-bar-area-person-left">
+						<div className="scroll-bar-area-person">
+							<div className="scroll-bar-area-person-left">
 								<img src="/assets/person-icon.png" />
 							</div>
 							
-							<div class="scroll-bar-area-person-right">
+							<div className="scroll-bar-area-person-right">
 								<h3>{value.partcipitent}</h3>
 								<h5>Participants</h5>
 							</div>
 							
-							<div class="clear"></div>
+							<div className="clear"></div>
 						</div>
 						
 						

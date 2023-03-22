@@ -72,9 +72,9 @@ const NftPool = () => {
 	}
   return ( 
     <div >
-        <div class="nft-section-2">
-	<div class="container">
-		<div class="inner-nft-section-2">
+        <div className="nft-section-2">
+	<div className="container">
+		<div className="inner-nft-section-2">
 			<h2><span>NFT Staking POOL</span></h2>
 			<p>Stake NFTs to Earn Tokens</p>
 		</div>
@@ -82,10 +82,10 @@ const NftPool = () => {
 </div>	
 	
 	
-<div class="nft-section-3">
-	<div class="container">
-		<div class="inner-nft-section-3">
-			<div class="active-section">
+<div className="nft-section-3">
+	<div className="container">
+		<div className="inner-nft-section-3">
+			<div className="active-section">
 				<ul>
 					<li className={`${active == false ?"nft-li-1":""}`}><a href="#" onClick={()=>setActive(false)}>Active</a></li>
 					<li className={`${active == true ?"nft-li-1":""}`}><a href="#" onClick={()=>setActive(true)}>inactive</a></li>
@@ -96,15 +96,15 @@ const NftPool = () => {
 				DataCard.map((value,index)=>{
 					return(
 						<>
-			<div class="active-section-1" onClick={()=>{
+			<div className="active-section-1" onClick={()=>{
 					// showDetails(!details);
 					showFilterData(index);
 				}}>
-				<div class="inner-active-section-1" id="ias-1">
-					<div class="inner-active-section-1-image">
+				<div className="inner-active-section-1" id="ias-1">
+					<div className="inner-active-section-1-image">
 						<img src={value.nftImage} />
 					</div>
-					<div class="inner-active-section-1-content" id="iasc-1">	
+					<div className="inner-active-section-1-content" id="iasc-1">	
 						<h3><span>{value.nftName}</span></h3>
 					</div>
 					
@@ -112,55 +112,55 @@ const NftPool = () => {
 					
 
 
-				<div class="inner-active-section-3" id="ias-3">
-					<div class="inner-active-section-3-content">	
+				<div className="inner-active-section-3" id="ias-3">
+					<div className="inner-active-section-3-content">	
 						<h3><span>{value.nftPercentage}% </span></h3>
 					</div>
 				</div>
 
 
-				<div class="inner-active-section-4" id="ias-4">
-					<div class="inner-active-section-4-content">	
+				<div className="inner-active-section-4" id="ias-4">
+					<div className="inner-active-section-4-content">	
 						<h3><span>{value.nftPrice}</span></h3>
 					</div>
 				</div>	
 
-				<div class="inner-active-section-5" id="ias-5">
-					<div class="inner-active-section-5-image">	
+				<div className="inner-active-section-5" id="ias-5">
+					<div className="inner-active-section-5-image">	
 						<img src="/assets/connect-wallet-btn.png" />
 					</div>
 				</div>				
 			</div>		
 			<div className={`${show === index?"active":"hidden"}`}>
-			<div class="active-section-2" >
-					<div class="inner-active-section-2-1" id="iias21">
-					<div class="ias2-1-content">
-						<p class="enndd">End</p>
-						<p class="naaa">NA</p>
-						<div class="clear"></div>
+			<div className="active-section-2" >
+					<div className="inner-active-section-2-1" id="iias21">
+					<div className="ias2-1-content">
+						<p className="enndd">End</p>
+						<p className="naaa">NA</p>
+						<div className="clear"></div>
 					</div>
 					
 
-					<div class="ias2-1-content">
-						<p class="enndd">Stake Free</p>
-						<p class="naaa">{value.stakeFees}</p>
-						<div class="clear"></div>					</div>					
+					<div className="ias2-1-content">
+						<p className="enndd">Stake Free</p>
+						<p className="naaa">{value.stakeFees}</p>
+						<div className="clear"></div>					</div>					
 
 				</div>
 				
-				<div class="inner-active-section-2-2" id="iias22">
-					<div class="ias2-1-content">
-						<p class="enndd">End Time</p>
-						<p class="naaa">{value.endTime}%</p>
-						<div class="clear"></div></div>
+				<div className="inner-active-section-2-2" id="iias22">
+					<div className="ias2-1-content">
+						<p className="enndd">End Time</p>
+						<p className="naaa">{value.endTime}%</p>
+						<div className="clear"></div></div>
 
 				</div>
 
-				<div class="inner-active-section-2-3">
-					<div class="inner-active-section-2-btn">
+				<div className="inner-active-section-2-3">
+					<div className="inner-active-section-2-btn">
 						<img src="/assets/scan-btn-1.png" />
 						<img src="/assets/scan-btn-2.png" />
-						<div class="clear"></div></div>
+						<div className="clear"></div></div>
 				</div>	
 								</div>
 			</div>	
