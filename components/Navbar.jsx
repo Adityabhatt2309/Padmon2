@@ -4,7 +4,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { useWeb3React } from "@web3-react/core";
 
-import React, { useState, useEffect, useRef, useContext } from "react";
+import React, { useState, useEffect, useRef, useContext, use } from "react";
 import MetaMaskOnboarding from "@metamask/onboarding";
 // import { useWeb3React } from "@web3-react/core";
 import { injected, walletconnect } from "@/utils/connecter";
@@ -13,6 +13,7 @@ import { GlobalContext } from "../components/context/Context";
 import { networkSwitcher } from "@/utils/networkSwitcher";
 import { useEagerConnect, useInactiveListener } from "@/hooks";
 import getWeb3 from "../getweb3";
+import Connect from './Modals/Connect';
 
 const Navbar = () => {
     const [show, setShow] = useState(false);
@@ -94,6 +95,7 @@ const Navbar = () => {
 
 
   const onConnectWithWalletConnect = () => {
+    console.log("hello aditya")
     setActivatingConnector(walletconnect);
     activate(walletconnect, undefined, true).catch((err) => {
       setActivatingConnector();
@@ -115,10 +117,11 @@ const Navbar = () => {
       assignWeb3();
     }
   }, [account]);
+  const [showModel,setShowModel]= useState(false);
 
 
     return (
-        <div>
+        <div style={{color:"white"}}>
                 <div className="header-area">
                     <div className="container">
                         <div className="inner-header-area">
@@ -134,15 +137,16 @@ const Navbar = () => {
                                     <li><a href="https://padmondao.gitbook.io" target="_blank">whitepaper</a></li>
                                     <div className="clear"></div>					</ul>
                             </div>
-                            <div className="header-right-1">
+                            {/* <div className="header-right-1">
                                 <span>
                                     <img src="/assets/group-1.png" style={{cursor:"pointer"}}
-                                    onConnectToMetamaskFunc={onConnectToMetamaskFunc}
-                                    toggleModalHandler={toggleModalHandler}
-                                    onConnectWithWalletConnect={onConnectWithWalletConnect}
+                                    // onConnectToMetamaskFunc={onConnectToMetamaskFunc}
+                                    // toggleModalHandler={toggleModalHandler}
+                                    // onConnectWithWalletConnect={onConnectWithWalletConnect}
+                                    onClick={()=>{setShowModel(!showModel)}}
                                     />
                                 </span>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -171,6 +175,10 @@ const Navbar = () => {
                         </div>	:""
                             }
                 </div>
+
+                {/* {
+                  showModel?<Connect/>:"not connected"
+                } */}
                 
                 
             </div>
