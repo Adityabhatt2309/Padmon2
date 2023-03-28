@@ -31,6 +31,17 @@ body
 {
 	background:#01012e !important;	
 }
+.heading_text{
+    font-family:MADETOMMY;
+    /* font-family: 'MADE TOMMY'; */
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+letter-spacing: 0.11em;
+}
 .container
 {
     /*border: 1px solid red;*/
@@ -119,18 +130,18 @@ margin-top: 28px;
 }
 .main-body {
     background-image: url(/assets/bgg-1-min.jpg);
-    background-size:cover;
+    background-size:100%;
+    background-repeat: no-repeat;
+    /* background-position: bottom; */
+    /* height: auto;	 */
+}
+/* .main-body1 {
+    background-image: url(/assets/bgg2.png);
+    background-size:contain;
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 1200px;	
-}
-.main-body1 {
-    background-image: url(/assets/bgg-1-min.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    height: 1700px;	
-}
+    height: 100vh;	
+} */
 .main-body-launchpad{
     background-image: url(/assets/bgg-1-min.jpg);
     background-size:cover;
@@ -139,12 +150,16 @@ margin-top: 28px;
     height: auto;	
     padding-bottom: 50px;
 }
-.main-body2{
-    background-image: url(/assets/bgg-1-min.jpg);
-    background-size:cover;
+/* .main-body2{
+    background-image: url(/assets/bgg2.png);
+    background-size:100% 100px;
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 1200px;	
+    height: 100vh;	
+} */
+.nft_vote_section{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .sec-1 {
     padding: 50px 0 50px 0;
@@ -526,6 +541,7 @@ div#demo5 {
 .footer {
     /* margin: 200px 0 60px 0; */
     margin-bottom: 20px;
+    padding-top: 30px;
 }
 .footer-2 p {
     /*font-family: MADETOMMY;*/
@@ -552,6 +568,16 @@ div#demo5 {
 transform: scaleX(1.2) scaleY(1.2)!important;
     transition: all 0.9s;	
 }
+.inner-inval-1:hover{
+    transform: scaleX(1.2) scaleY(1.2)!important;
+    transition: all 0.9s;
+    cursor: pointer;
+}
+.inner-inval-2:hover{
+    transform: scaleX(1.2) scaleY(1.2)!important;
+    transition: all 0.9s;
+    cursor: pointer;
+}
 .footer-icon{
     display: flex;
 }
@@ -569,9 +595,9 @@ div#is8-1 img {
 div#iinsec-8 {
     padding-top: 40px;
 }
-div#second-9 {
+/* div#second-9 {
     margin-top: 1200px;
-}
+} */
 div#rd-map-sec-1 {
     margin-top: 150px;
 }
@@ -762,7 +788,7 @@ div#nft-menu ul li {
     float: left;
 }
 .nft-section-1 {
-    margin-top: 80px;
+    padding-top: 50px;
 }
 .nft-nd-s-1 ul li {
     list-style: none;
@@ -812,8 +838,9 @@ div#nft-menu ul li {
     background-repeat: no-repeat;
 }
 .inner-nft-section-2 {
-    width: 55%;        
+    width: 85%;        
     margin: 0 auto;
+    padding-top: 50px;
 }
 .inner-nft-section-2 h2 {
     margin: 0;
@@ -838,11 +865,14 @@ div#nft-menu ul li {
     margin-bottom: 0;
 }
 .inner-nft-section-3 {
-background-image: url(/assets/r-index-1-bg-4-min.png);
+/* background-image: url(/assets/r-index-1-bg-4-min.png); */
+    background: linear-gradient(239.18deg, #3897F2 -40.11%, rgba(1, 1, 46, 0) 92.71%);
+    border: 1px solid #0082FF;
+    backdrop-filter: blur(40px);
     background-size: cover;
     background-repeat: no-repeat;
     height: 1000px;
-    border: 1.5px solid #0082ff;
+    /* border: 1.5px solid #0082ff; */
 }
 body.nft-1 .main-body {
 	background-image: url(/assets/nft-bg-1-min.jpg);
@@ -1119,7 +1149,7 @@ body.nft-2 .inner-nft-section-2 {
     margin: 0 auto;
 }
 div#iasc-1 h3 span {
-    font-size: 40px;
+    font-size: 22px;
     padding-top: 15px;
 }
 div#ias-1 {
@@ -1165,66 +1195,132 @@ div#inval {
 }
 
 .inner-nft-vote-area-left {
-    width: 28%;
+    width: 18%;
     float: left;
-    margin-left: 5% !important;
+    margin-left: 12% !important;
     text-align: center;
     margin-top: 50px;	
+    /* padding: 8px; */
 }
 .inner-inval-1 {
     background-image: url(/assets/Union-1.png);
     background-size: 100% 100%;
-    height: 94px;
+    height: 70px;
     background-repeat: no-repeat;
 }
 
 .inner-inval-1 h4 {
     font-family: Nebula-Regular;
     color: white;
-    line-height: 94px;
-    font-size: 35px;
+    line-height: 70px;
+    font-size: 22px;
     margin: 0px;
 }
 .inner-inval-2 {
     background-image: url(/assets/Union.png);
     background-size: 100% 100%;
-    height: 95px;
+    height: 70px;
     background-repeat: no-repeat;
 }
 .inner-inval-2 h4 {
     margin: 0;
     font-family: Nebula-Regular;
     color: white;
-    line-height: 95px;
+    line-height: 70px;
+    font-size: 10px;
 }
+
 span.in-inval-1 {
-    font-size: 35px;
+    font-size: 24px;
 }
 span.in-inval-2 {
     position: relative;
-    top: -10px;
+    top: -4px;
 }
 
 .inner-nft-vote-area {
-    background-image: url(/assets/nfv-bg-image-min.png);
-    background-size: 100% 100%;
+    /* background-image: url(/assets/nfv-bg-image-min.png); */
+    background: linear-gradient(239.18deg, #3897F2 -40.11%, rgba(1, 1, 46, 0) 92.71%);
+    backdrop-filter: blur(30px);
+    /* background-size: 100% 100%; */
     padding: 50px 50px;
     height: 300px;
-    border-right: 2.5px solid #0082ff;
+    border: 2.5px solid #0082ff;
+    /* margin-bottom: 100px; */
+    /* display: flex; */
+    /* justify-content: center; */
     /* background-position: left; */
 }
 .nft-vote-area {
     margin-top: 60px;
 }
+.btn_buy{
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    transition: all 1s ease;
+}
+.connect_wallet_btn{
+    position: relative;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.btn_scan{
+    cursor: pointer;
+    position: relative;
+    transition: all 1s ease;
+}
+.btn_buy:hover{
+    cursor: pointer;
+    transform: translate(0%,-10%);
+}
+.btn_scan:hover{
+    cursor: pointer;
+    transform: translate(0%,-10%);
+    
+}
+.connect_wallet_btn:hover{
+    cursor: pointer;
+    transform: translate(0%,-10%);
+   
+}
+.inner-active-section-5-image img{
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    transition: all 1s ease;
+}
+.inner-active-section-5-image img:hover{
+    cursor: pointer;
+    transform: translate(0%,-10%);
+}
+.inner-active-section-2-btn{
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    transition: all 1s ease;
+}
+.inner-active-section-2-btn img{
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    transition: all 1s ease;
+}   
+.inner-active-section-2-btn img:hover{
+    cursor: pointer;
+    transform: translate(0%,-10%);
+}   
+
+
 
 /*---------------------------------------NFT-Marketplace---------------------------*/
 
 body.nft-marketplace .inner-nft-section-2 {
     width: 80%;
 }
-.nft-section-2 {
+/* .nft-section-2 {
     margin-top: 90px;
-}
+} */
 .nft-marketplace-section-1 {
     margin-top: 100px;
 }
@@ -1861,6 +1957,9 @@ div#iinsec-8 {
     font-size: 25px;
     font-weight: 100;
 }
+.inner-pad-sec-3-left a{
+    text-decoration: none;
+}
 .inner-pad-sec-3-left-heading h2 {
     margin: 0;
 }
@@ -2109,6 +2208,7 @@ img.scroll {
     padding-top: 10px;
 
 }
+
 .mobile-area overlay{
     margin-left: -100%;
     transition: all 2.0s ease-in;
@@ -2121,6 +2221,14 @@ img.scroll {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.nft-nd-s-1 ul{
+    list-style: none;
+    /* float: left; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .overlay-content{
   display: flex;
   flex-direction: column;
@@ -2132,8 +2240,19 @@ img.scroll {
   background-color: #00002d;
   width: 100%;
 }
+
 div#second-9 {
     margin-top: 100px;
+}
+.main-body1 {
+    background-image: url(/assets/bgg2.png);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: auto;	
+}
+.nft-section-1 {
+    padding-top: 50px;
 }
 
 .overlay-content a {
@@ -2168,6 +2287,7 @@ div#iinsec-8 {
     width: 100%;
     margin: 0 auto;
 }
+
 
 .mobile-logo {
     width: 30%;
@@ -2459,6 +2579,7 @@ div#inner-padmondao-section-2 .nft-nd-s-1 {
 
 .nft-nd-s-1 ul li {
     float: none;
+    line-height: 2;
 }
 .nft-nd-s-1 ul li a {
 text-align: center;
@@ -2466,6 +2587,9 @@ height: auto;
 padding: 0px;
 }
 div#inner-padmondao-section-2 ul li.nft-li-1 a {
+    background-image: url(/assets/group-24.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     padding: 17px 28px;
 }
 .inner-pad-sec-3-left {
@@ -2520,11 +2644,31 @@ div#inner-padmondao-section-2 ul li.nft-li-1 a {
     float: right;
     padding: 10px 10px;
 }
-.nft-li-1 a {
+.nft-li-1{
     /* background: transparent; */
+    /* background: -webkit-linear-gradient(0deg,#ffffff -10.87%,#46D8D1 42.29%, #3897F2 55.29%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+    background-image: url(/assets/group-24.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 32px;
+    
+}
+.nft-li-1 a{
+    background: transparent;
     background: -webkit-linear-gradient(0deg,#ffffff -10.87%,#46D8D1 42.29%, #3897F2 55.29%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding: 10px;
+    line-height: 20px;
+    gap: 10px;
+    margin: 5px;
+    
+}
+.nft-nd-s-1 nft-nd-s-1-2 ul li{
+    line-height: 50px;
 }
 
 .inner-pad-sec-3-left-heading h2 span {
@@ -2619,7 +2763,7 @@ ul.auction-list {
 
 
 .inner-nft-vote-area-left {
-    width: 90%;
+    width: 100%;
     float: none;
     /* margin-left: 85px; */
     text-align: center;
@@ -2711,7 +2855,7 @@ div#iias22 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 95%;
+    width: 105%;
     margin-top: 20px;
 }
 .inner-active-section-2 {
@@ -2769,7 +2913,7 @@ div#iias22 {
 }
 
 .active-section-2 {
-    height: 500px;
+    height: auto;
     padding-left: 0px;
     /* padding: 10px; */
     width: auto;
@@ -2788,8 +2932,9 @@ div#iias22 {
     color: white;
     display: block;
     font-size: 18px;
-    padding: 2px 5px;
+    padding: 2px 20px;
     height: 30.1px;
+    margin-top: 3px;
 }
 .inner-active-section-2-btn{
     display: flex;
@@ -2798,7 +2943,7 @@ div#iias22 {
     align-items: center;
 }
 .inner-nft-section-2 {
-    width: auto;        
+    width: 85%;        
     margin: 0 auto;
 }
 .nft-nd-s-1-2 ul{
@@ -2827,7 +2972,7 @@ div#iias22 {
     background-size:cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 1500px;	
+    height: auto;	
 }
 .inner-nft-vote-area {
     background-image: url(/assets/nfv-bg-image-min.png);

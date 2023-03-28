@@ -5,7 +5,7 @@ const DataCard=[
 	{
 		id:0,
 		nftImage:"/assets/image-1.jpg",
-		nftName:"NFT",
+		nftName:"$PDAO Pool",
 		nftPercentage:12000,
 		nftPrice:100.0000,
 		stakeFees:7200000.01,
@@ -14,7 +14,7 @@ const DataCard=[
 	{
 		id:1,
 		nftImage:"/assets/image-1.jpg",
-		nftName:"NFT",
+		nftName:"$GUARD Pool",
 		nftPercentage:12000,
 		nftPrice:100.0000,
 		stakeFees:7200000.01,
@@ -23,7 +23,7 @@ const DataCard=[
 	{
 		id:2,
 		nftImage:"/assets/image-1.jpg",
-		nftName:"NFT",
+		nftName:"$KNIGHT Pool",
 		nftPercentage:12000,
 		nftPrice:100.0000,
 		stakeFees:7200000.01,
@@ -32,7 +32,7 @@ const DataCard=[
 	{
 		id:3,
 		nftImage:"/assets/image-1.jpg",
-		nftName:"NFT",
+		nftName:"TBD",
 		nftPercentage:12000,
 		nftPrice:100.0000,
 		stakeFees:7200000.01,
@@ -76,7 +76,7 @@ const NftPool = () => {
 	<div className="container">
 		<div className="inner-nft-section-2">
 			<h2><span>NFT Staking POOL</span></h2>
-			<p>Stake NFTs to Earn Tokens</p>
+			<p className='heading_text'>Stake NFTs to Earn Tokens</p>
 		</div>
 	</div>
 </div>	
@@ -127,7 +127,7 @@ const NftPool = () => {
 
 				<div className="inner-active-section-5" id="ias-5">
 					<div className="inner-active-section-5-image">	
-						<img src="/assets/connect-wallet-btn.png" />
+						<img src="/assets/connect-wallet-btn.png" className='connect_wallet_btn'/>
 					</div>
 				</div>				
 			</div>		
@@ -158,8 +158,8 @@ const NftPool = () => {
 
 				<div className="inner-active-section-2-3">
 					<div className="inner-active-section-2-btn">
-						<img src="/assets/scan-btn-1.png" />
-						<img src="/assets/scan-btn-2.png" />
+						<img src="/assets/scan-btn-1.png" className='btn_scan' />
+						<img src="/assets/scan-btn-2.png"  className='btn_buy'/>
 						<div className="clear"></div></div>
 				</div>	
 								</div>

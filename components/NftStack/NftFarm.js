@@ -7,7 +7,7 @@ const DataNftFarm = [
 		id: 0,
 		nftImage: "/assets/image-1.jpg",
 		nftName: 28,
-		padmonValue: 10.000,
+		padmonValue: 10000,
 		access: "Redeemable",
 		availability: "NA",
 		TotalStaked: 7200000.01,
@@ -21,7 +21,7 @@ const DataNftFarm = [
 		id: 1,
 		nftImage: "/assets/image-1.jpg",
 		nftName: 28,
-		padmonValue: 10.000,
+		padmonValue: 45000,
 		access: "Redeemable",
 		availability: "NA",
 		TotalStaked: 7200000.01,
@@ -35,7 +35,7 @@ const DataNftFarm = [
 		id: 2,
 		nftImage: "/assets/image-1.jpg",
 		nftName: 28,
-		padmonValue: 10.000,
+		padmonValue: 70000,
 		access: "Redeemable",
 		availability: "NA",
 		TotalStaked: 7200000.01,
@@ -49,7 +49,7 @@ const DataNftFarm = [
 		id: 3,
 		nftImage: "/assets/image-1.jpg",
 		nftName: 28,
-		padmonValue: 10.000,
+		padmonValue: 45000,
 		access: "Redeemable",
 		availability: "NA",
 		TotalStaked: 7200000.01,
@@ -81,7 +81,7 @@ const NftFarm = () => {
 					<div className="container">
 						<div className="inner-nft-section-2">
 							<h2 className="gradient-border"><span>Padmonkeys</span> <span>NFT FARM</span></h2>
-							<p>Stake for Your PadMonkey Tiered NFT</p>
+							<p className="heading_text">Stake for Your PadMonkey Tiered NFT</p>
 						</div>
 					</div>
 				</div>
@@ -192,7 +192,7 @@ const NftFarm = () => {
 													</div>
 
 													<div className="inner-active-section-2-3">
-														<h3 className="you-stackk"><span className="yo-st-1">Your Stacked</span> <span className="yo-st-2">{value.YourStaked}</span></h3>
+														<h3 className="you-stackk"><span className="yo-st-1">Your Staked</span> <span className="yo-st-2">{value.YourStaked}</span></h3>
 
 														<div className="inner-active-section-2-btn">
 															<img src="/assets/scan-btn-1.png" />

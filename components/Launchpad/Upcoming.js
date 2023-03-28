@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 
@@ -95,6 +96,7 @@ const Upcoming = () => {
                         <>
                 <div className="inner-pad-sec-3">
 				<div className="inner-pad-sec-3-left" id="inner-pad-sec-3-right">
+                    <Link href="/details">
 					<div className="inner-pad-sec-3-left-heading">
 						<h2><span>{value.name}</span></h2>
 					</div>
@@ -132,7 +134,7 @@ const Upcoming = () => {
 						
 						
 					</div>
-					
+					</Link>
 					
 					
 					

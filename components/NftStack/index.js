@@ -10,7 +10,6 @@ import NftVote from './NftVote';
 
 
 const NftStack = () => {
-
 const [show, setShow] = useState(0);
 const [nftPool,setNftPool] = useState(0);
 // console.log(show)
@@ -18,7 +17,7 @@ const [nftPool,setNftPool] = useState(0);
 
   return (
     <>
-      <div className={`${nftPool==0 ? 'main-body1':""} ${ nftPool==1 ? 'main-body1':""} ${nftPool==2 ? 'main-body2':""}`}>
+      <div className={`${nftPool==0 ? 'main-body':""} ${ nftPool==1 ? 'main-body':""} ${nftPool==2 ? 'main-body':""}`}>
       <div className="header-area">
                     <div className="container">
                         <div className="inner-header-area">
@@ -96,7 +95,6 @@ const [nftPool,setNftPool] = useState(0);
 		</div>
 	</div>
 </div>	
-
 {
 	nftPool == 0?<NftPool/>:""
 }

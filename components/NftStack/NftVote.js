@@ -2,7 +2,7 @@ import React from 'react'
 
 const NftVote = () => {
   return (
-    <div>
+    <div className='nft_vote_section'>
         {/* <div className="nft-section-1">
 	<div className="container">
 		<div className="inner-nft-section-1">
@@ -22,17 +22,14 @@ const NftVote = () => {
 <div className="nft-section-2">
 	<div className="container">
 		<div className="inner-nft-section-2">
-			<h2><span>NFT Governance VOTing</span></h2>
-			<p>Stake Your NFT Here to Cast Your Vote in Active Proposals</p>
+			<h2><span>Stake Your NFT</span></h2>
+			<p className='heading_text'>Stake Your NFT Here to Cast Your Vote in Active Proposals</p>
 		</div>
 	</div>
 </div>	
 	
 	
 	
-
-
-
 
 
 <div className="nft-vote-area">
