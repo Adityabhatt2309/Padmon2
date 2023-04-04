@@ -87,7 +87,8 @@ letter-spacing: 0.11em;
     text-decoration: none;
     /* text-transform: uppercase; */
     color: white;
-    padding: 0 25px;
+    padding: 0 12px;
+    /* margin-left: 15px; */
     font-size: 24px;
 }
 .header-right ul li a:hover {
@@ -98,7 +99,7 @@ letter-spacing: 0.11em;
     background: -webkit-linear-gradient(0deg,#ffffff -10.87%,#46D8D1 42.29%, #3897F2 55.29%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding: 0 25px;
+    padding: 0 12px;
     font-size: 24px;
 }
 .header-right-1 img {
@@ -130,7 +131,7 @@ margin-top: 28px;
 }
 .main-body {
     background-image: url(/assets/bgg-1-min.jpg);
-    background-size:100%;
+    background-size:100% 100vh;
     background-repeat: no-repeat;
     /* background-position: bottom; */
     /* height: auto;	 */
@@ -142,14 +143,14 @@ margin-top: 28px;
     background-position: bottom;
     height: 100vh;	
 } */
-.main-body-launchpad{
+/* .main-body-launchpad{
     background-image: url(/assets/bgg-1-min.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: bottom;
     height: auto;	
     padding-bottom: 50px;
-}
+} */
 /* .main-body2{
     background-image: url(/assets/bgg2.png);
     background-size:100% 100px;
@@ -217,6 +218,13 @@ ul.icon-listing li :hover {
 {
 transform: scaleX(1.2) scaleY(1.2)!important;
     transition: all 0.9s;	
+}
+.connect_wallet{
+    transition: all 0.9s;
+}
+.connect_wallet:hover{
+    transform: scaleX(1.2) scaleY(1.2)!important;
+    transition: all 0.9s;	 
 }
 img.btn-image-2 {
     width: 17%;
@@ -542,6 +550,8 @@ div#demo5 {
     /* margin: 200px 0 60px 0; */
     margin-bottom: 20px;
     padding-top: 30px;
+    /* margin-top: 20px; */
+    /* background-color: white; */
 }
 .footer-2 p {
     /*font-family: MADETOMMY;*/
@@ -776,6 +786,46 @@ p.de-para-1 {
 }
 li.lli-1 {
     margin-bottom: 20px;
+}
+
+.model_wallet{
+    background-color: white;
+    border-radius: 12px;
+    width: 300px;
+    /* height: 500px; */
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    inset: 20px 40px 30px 10px;
+}
+.main_model_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.image_wallet{
+    width: 50px;
+    height: 50px;
+}
+.wallet_btn{
+    background-color: #01012e;
+    color: white;
+    padding: 10px;
+    margin: 12px;
+    position: relative;
+    top: -15px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.9s;
+    outline: none;
+}
+
+.wallet_btn:hover{
+    transform: scaleX(1.2) scaleY(1.2)!important;
+    transition: all 0.9s;	 
 }
 
 
@@ -1864,8 +1914,10 @@ div#inner-padmondao-section-2 ul li.nft-li-1 a {
 }
 
 .inner-padmondao-section-3 {
-    background-image: url(/assets/r-index-1-bg-4-min.png);
-    background-size: 100% 100%;
+    /* background-image: url(/assets/r-index-1-bg-4-min.png); */
+    background: linear-gradient(239.18deg, #3897F2 -40.11%, rgba(1, 1, 46, 0) 92.71%);
+    backdrop-filter: blur(30px);
+    /* background-size: 100% 100%; */
     display: grid;
     grid-template-columns: repeat(2,1fr);
     column-gap: 20px;
@@ -2031,22 +2083,30 @@ img.scroll {
     /* width: 40%; */
     /* float: left; */
     padding: 40px 20px;
-    background-image: url(/assets/rrr-2.png);
-    background-size: cover;
+    /* background-image: url(/assets/rrr-2.png); */
+    background: linear-gradient(239.18deg, #3897F2 -40.11%, rgba(1, 1, 46, 0) 92.71%);
+    backdrop-filter: blur(30px);
+    background-size: 100%;
     background-repeat: no-repeat;
     border: 2px solid #0082ff;
     background-position: center;
+    /* margin-bottom: 250px;
+    margin-top: 100px; */
 }
 
 .pddao-area-right {
     /* width: 40%; */
     /* float: right; */
     padding: 20px 20px;
-    background-image: url(/assets/rrr-2.png);
-    background-size: cover;
+    /* background-image: url(/assets/rrr-2.png); */
+    background: linear-gradient(239.18deg, #3897F2 -40.11%, rgba(1, 1, 46, 0) 92.71%);
+    backdrop-filter: blur(30px);
+    background-size: 100%;
     background-repeat: no-repeat;
     border: 2px solid #0082ff;
-    background-position: center;	
+    background-position: center;
+    /* margin-bottom: 250px;	
+    margin-top: 100px; */
 }
 
 

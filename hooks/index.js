@@ -44,7 +44,7 @@ export const useEagerConnect = () => {
     }, [tried, active]);
   
     return tried;
-  };
+};
   
   export const useInactiveListener = (suppress = false) => {
     const { active, error, activate } = useWeb3React();
@@ -86,4 +86,5 @@ export const useEagerConnect = () => {
       return undefined;
     }, [active, error, suppress, activate]);
   };
+
   

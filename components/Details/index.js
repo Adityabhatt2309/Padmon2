@@ -11,7 +11,7 @@ const Details = () => {
                     <div className="container">
                         <div className="inner-header-area">
                             <div className="header-left">
-                                <a href="#"><img src="/assets/padmondaoblueoutline-1.png" /></a>
+                                <a href="/"><img src="/assets/padmondaoblueoutline-1.png" /></a>
                             </div>
                             <div className="header-right">
                                 <ul>

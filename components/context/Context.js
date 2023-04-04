@@ -10,7 +10,7 @@ const Context =({children})=>{
         setOpenConnectModal(!openConnectModal);
         console.log(openConnectModal,"openmodalConnectModal");
       };
-
+      
       return (
         <GlobalContext.Provider
           value={{

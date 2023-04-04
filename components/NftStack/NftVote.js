@@ -23,7 +23,7 @@ const NftVote = () => {
 	<div className="container">
 		<div className="inner-nft-section-2">
 			<h2><span>Stake Your NFT</span></h2>
-			<p className='heading_text'>Stake Your NFT Here to Cast Your Vote in Active Proposals</p>
+			<p className='heading_text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 		</div>
 	</div>
 </div>	

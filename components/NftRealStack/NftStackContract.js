@@ -147,29 +147,7 @@ const [nftPool,setNftPool] = useState(0);
 	
 	
 	
-{/* <div className="nft-section-1">
-	<div className="container">
-		<div className="inner-nft-section-1">
-			<div className="nft-nd-s-1">
-				<ul>
-					<li className={`${nftPool == 0 ?"nft-li-1":""}`} ><a href="#" onClick={()=>{setNftPool(0)}}>NFT POOL</a></li>
-					<li className={`${nftPool == 1 ?"nft-li-1":""}`}><a href="#" onClick={()=>{setNftPool(1)}}>NFT FARM</a></li>
-					<li className={`${nftPool == 2 ?"nft-li-1":""}`}><a href="#" onClick={()=>{setNftPool(2)}}>NFT VOTE</a></li>
-					<div className="clear"></div>
-				</ul>
-			</div>
-		</div>
-	</div>
-</div>	
-{
-	nftPool == 0?<NftPool/>:""
-}
-{
-	nftPool ==1?<NftFarm/>:""
-}
-{
-	nftPool == 2?<NftVote/>:""
-} */}
+
 </div>
       <div className="nft-section-2">
 				<div className="nft-section-2">
@@ -306,7 +284,7 @@ const [nftPool,setNftPool] = useState(0);
 					</div>
 				</div>
 			</div>
-    </div>
+</div>
   )
 }
 

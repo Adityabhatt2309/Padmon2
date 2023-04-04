@@ -3,12 +3,12 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-
+		
 <div className="footer">
 	<div className="container">
 		<div className="inner-footer">
 			<div className="footer-1">
-				<a href="#"><img src="/assets/padmondaoblueoutline-1.png" /></a>
+				<a href="/"><img src="/assets/padmondaoblueoutline-1.png" /></a>
 			</div>
 			
 			<div className="footer-2">

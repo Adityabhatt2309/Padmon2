@@ -2,25 +2,26 @@ import React,{useState} from 'react'
 import { AiOutlineClose } from 'react-icons/ai';
 import { AiOutlineMenu } from 'react-icons/ai';
 import Upcoming from './Upcoming';
+import Link from 'next/link';
 
 const Launchpad = () => {
 
     const [show, setShow] = useState(0);
-const [tab,setTab] = useState(0);
+    const [tab,setTab] = useState(0);
   return (
     <div>
-         <div className={`${tab==0 ? 'main-body-launchpad':""} ${ tab==1 ? 'main-body-launchpad':""} ${tab==2 ? 'main-body-launchpad':""} ${tab==3 ? 'main-body-launchpad':""} `}>
+         <div className="main-body">
       <div className="header-area">
                     <div className="container">
                         <div className="inner-header-area">
                             <div className="header-left">
-                                <a href="#"><img src="/assets/padmondaoblueoutline-1.png" /></a>
+                                <Link href="/"><img src="/assets/padmondaoblueoutline-1.png" /></Link>
                             </div>
                             <div className="header-right">
                                 <ul>
-                                    <li><a href="/">NFT market</a></li>
-                                    <li><a href="/nft">nft</a></li>
-                                    <li><a href="/">projects</a></li>
+                                    <li><Link href="/">NFT market</Link></li>
+                                    <li><Link href="/nft">nft</Link></li>
+                                    <li><Link href="/">projects</Link></li>
                                     {/* <li><a href="https://padmondao.gitbook.io" target="_blank">whitepaper</a></li> */}
                                     {/* <div className="clear"></div>	 */}
 								</ul>
@@ -38,7 +39,7 @@ const [tab,setTab] = useState(0);
 <div className="mobile-area">
                     <div className="container">
                         <div className="mobile-logo">
-                            <a href="/"><img src="/assets/padmondaoblueoutline-1.png" /></a>
+                            <Link href="/"><img src="/assets/padmondaoblueoutline-1.png" /></Link>
                         </div>
 
                         <div className="mobile-menu">
@@ -53,32 +54,25 @@ const [tab,setTab] = useState(0);
                             
                             show?<div id="myNav" className="overlay">
                             <div className="overlay-content">
-                                <a href="/">Game</a>
-                                <a href="/nft">NFTs</a>
-                                <a href="https://padmondao.gitbook.io" target="_blank">whitepaper</a>
-                                <a href="/">Unlock wallet</a>
-                                
-                                
-                                
-                            
+                                <Link href="/">Game</Link>
+                                <Link href="/nft">NFTs</Link>
+                                <Link href="https://padmondao.gitbook.io" target="_blank">whitepaper</Link>
+                                <Link href="/">Unlock wallet</Link>
                             </div>
                         </div>	:""
                             }
                    
                 </div>
 
-    
-
-
     <div className="nft-section-1">
 	<div className="container">
 		<div className="inner-nft-section-1">
 			<div className="nft-nd-s-1 nft-nd-s-1-2">
 				<ul>
-					<li className={`${tab == 0 ?"nft-li-1":""}`} ><a href="#" onClick={()=>{setTab(0)}}>Upcoming</a></li>
-					<li className={`${tab == 1 ?"nft-li-1":""}`}><a href="#" onClick={()=>{setTab(1)}}>Live</a></li>
-					<li className={`${tab == 2 ?"nft-li-1":""}`}><a href="#" onClick={()=>{setTab(2)}}>Success</a></li>
-                    <li className={`${tab == 3 ?"nft-li-1":""}`}><a href="#" onClick={()=>{setTab(3)}}>Cancelled</a></li>
+					<li className={`${tab == 0 ?"nft-li-1":""}`} ><Link href="" onClick={()=>{setTab(0)}}>Upcoming</Link></li>
+					<li className={`${tab == 1 ?"nft-li-1":""}`}><Link href="" onClick={()=>{setTab(1)}}>Live</Link></li>
+					<li className={`${tab == 2 ?"nft-li-1":""}`}><Link href="" onClick={()=>{setTab(2)}}>Success</Link></li>
+                    <li className={`${tab == 3 ?"nft-li-1":""}`}><Link href="" onClick={()=>{setTab(3)}}>Cancelled</Link></li>
 				</ul>
 			</div>
 		</div>

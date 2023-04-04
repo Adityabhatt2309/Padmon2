@@ -5,8 +5,8 @@ const DataCard=[
 	{
 		id:0,
 		nftImage:"/assets/image-1.jpg",
-		nftName:"$PDAO Pool",
-		nftPercentage:12000,
+		nftName:"Ape",
+		nftPercentage:10000,
 		nftPrice:100.0000,
 		stakeFees:7200000.01,
 		endTime:20,
@@ -14,8 +14,8 @@ const DataCard=[
 	{
 		id:1,
 		nftImage:"/assets/image-1.jpg",
-		nftName:"$GUARD Pool",
-		nftPercentage:12000,
+		nftName:"Bananas Ape",
+		nftPercentage:45000,
 		nftPrice:100.0000,
 		stakeFees:7200000.01,
 		endTime:20,
@@ -23,8 +23,8 @@ const DataCard=[
 	{
 		id:2,
 		nftImage:"/assets/image-1.jpg",
-		nftName:"$KNIGHT Pool",
-		nftPercentage:12000,
+		nftName:"ApeSh",
+		nftPercentage:70000,
 		nftPrice:100.0000,
 		stakeFees:7200000.01,
 		endTime:20,
@@ -33,7 +33,7 @@ const DataCard=[
 		id:3,
 		nftImage:"/assets/image-1.jpg",
 		nftName:"TBD",
-		nftPercentage:12000,
+		nftPercentage:90000,
 		nftPrice:100.0000,
 		stakeFees:7200000.01,
 		endTime:20,
@@ -81,7 +81,6 @@ const NftPool = () => {
 	</div>
 </div>	
 	
-	
 <div className="nft-section-3">
 	<div className="container">
 		<div className="inner-nft-section-3">
@@ -91,7 +90,6 @@ const NftPool = () => {
 					<li className={`${active == true ?"nft-li-1":""}`}><a href="#" onClick={()=>setActive(true)}>inactive</a></li>
 				</ul>
 			</div>
-			
 			{
 				DataCard.map((value,index)=>{
 					return(
@@ -107,11 +105,8 @@ const NftPool = () => {
 					<div className="inner-active-section-1-content" id="iasc-1">	
 						<h3><span>{value.nftName}</span></h3>
 					</div>
-					
 				</div>
-					
-
-
+			
 				<div className="inner-active-section-3" id="ias-3">
 					<div className="inner-active-section-3-content">	
 						<h3><span>{value.nftPercentage}% </span></h3>
@@ -144,7 +139,7 @@ const NftPool = () => {
 					<div className="ias2-1-content">
 						<p className="enndd">Stake Free</p>
 						<p className="naaa">{value.stakeFees}</p>
-						<div className="clear"></div>					</div>					
+						<div className="clear"></div></div>					
 
 				</div>
 				
@@ -168,12 +163,9 @@ const NftPool = () => {
 					)
 				})
 			}
-
-
-
 		</div>
 	</div>
-</div>	
+	</div>	
     </div>
   )
 }

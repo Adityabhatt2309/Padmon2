@@ -5,6 +5,7 @@ import { AiOutlineMenu } from 'react-icons/ai';
 import NftFarm from './NftFarm';
 import NftPool from './NftPool';
 import NftVote from './NftVote';
+import Link from 'next/link';
 
 
 
@@ -22,19 +23,19 @@ const [nftPool,setNftPool] = useState(0);
                     <div className="container">
                         <div className="inner-header-area">
                             <div className="header-left">
-                                <a href="#"><img src="/assets/padmondaoblueoutline-1.png" /></a>
+                                <Link href="/"><img src="/assets/padmondaoblueoutline-1.png" /></Link>
                             </div>
                             <div className="header-right">
                                 <ul>
-                                    <li><a href="/">NFT market</a></li>
-                                    <li><a href="/nft">nft</a></li>
-                                    <li><a href="/">projects</a></li>
-                                    {/* <li><a href="https://padmondao.gitbook.io" target="_blank">whitepaper</a></li> */}
+                                    <li><Link href="/">NFT market</Link></li>
+                                    <li><Link href="/nft">nft</Link></li>
+                                    <li><Link href="/">projects</Link></li>
+                                    {/* <li><Link href="https://padmondao.gitbook.io" target="_blank">whitepaper</Link></li> */}
                                     {/* <div className="clear"></div>	 */}
 								</ul>
                             </div>
                             {/* <div className="header-right-1">
-                                <span><a href="#"><img src="/assets/group-1.png" /></a></span>
+                                <span><Link href="#"><img src="/assets/group-1.png" /></Link></span>
                             </div> */}
                         </div>
                     </div>
@@ -47,7 +48,7 @@ const [nftPool,setNftPool] = useState(0);
 <div className="mobile-area">
                     <div className="container">
                         <div className="mobile-logo">
-                            <a href="/"><img src="/assets/padmondaoblueoutline-1.png" /></a>
+                            <Link href="/"><img src="/assets/padmondaoblueoutline-1.png" /></Link>
                         </div>
 
                         <div className="mobile-menu">
@@ -62,10 +63,10 @@ const [nftPool,setNftPool] = useState(0);
                             
                             show?<div id="myNav" className="overlay">
                             <div className="overlay-content">
-                                <a href="/">Game</a>
-                                <a href="/nft">NFTs</a>
-                                <a href="https://padmondao.gitbook.io" target="_blank">whitepaper</a>
-                                <a href="/">Unlock wallet</a>
+                                <Link href="/">Game</Link>
+                                <Link href="/nft">NFTs</Link>
+                                <Link href="https://padmondao.gitbook.io" target="_blank">whitepaper</Link>
+                                <Link href="/">Unlock wallet</Link>
                                 
                                 
                                 
@@ -74,11 +75,9 @@ const [nftPool,setNftPool] = useState(0);
                         </div>	:""
                             }
                    
-                </div>
+</div>
 
 {/* <!---------------------Mobile-Menu------------------------------->	 */}
-	
-	
 	
 	
 <div className="nft-section-1">
@@ -86,9 +85,9 @@ const [nftPool,setNftPool] = useState(0);
 		<div className="inner-nft-section-1">
 			<div className="nft-nd-s-1">
 				<ul>
-					<li className={`${nftPool == 0 ?"nft-li-1":""}`} ><a href="#" onClick={()=>{setNftPool(0)}}>NFT POOL</a></li>
-					<li className={`${nftPool == 1 ?"nft-li-1":""}`}><a href="#" onClick={()=>{setNftPool(1)}}>NFT FARM</a></li>
-					<li className={`${nftPool == 2 ?"nft-li-1":""}`}><a href="#" onClick={()=>{setNftPool(2)}}>NFT VOTE</a></li>
+					<li className={`${nftPool == 0 ?"nft-li-1":""}`} ><Link href="" onClick={()=>{setNftPool(0)}}>NFT POOL</Link></li>
+					<li className={`${nftPool == 1 ?"nft-li-1":""}`}><Link href="" onClick={()=>{setNftPool(1)}}>NFT FARM</Link></li>
+					<li className={`${nftPool == 2 ?"nft-li-1":""}`}><Link href="" onClick={()=>{setNftPool(2)}}>NFT VOTE</Link></li>
 					<div className="clear"></div>
 				</ul>
 			</div>
