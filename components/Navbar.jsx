@@ -2,128 +2,29 @@ import Header from './Header/Header';
 // import styles from '../styles/Nav.module.css';
 import { AiOutlineClose } from 'react-icons/ai';
 import { AiOutlineMenu } from 'react-icons/ai';
-import { useWeb3React } from "@web3-react/core";
 
 import React, { useState, useEffect, useRef, useContext, use } from "react";
-import MetaMaskOnboarding from "@metamask/onboarding";
-// import { useWeb3React } from "@web3-react/core";
-import { injected, walletconnect } from "@/utils/connecter";
-// import { PromoContext } from "../Index";
-import { GlobalContext } from "../components/context/Context";
-import { networkSwitcher } from "@/utils/networkSwitcher";
-import { useEagerConnect, useInactiveListener } from "@/hooks";
-import getWeb3 from "../getweb3";
 import Image from 'next/image';
 import Link from 'next/link';
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 // import { AiOutlineClose } from 'react-icons/ai';
+// import ConnectButton  from "@rainbow-me/rainbowkit";
+
+
 
 
 
 const Navbar = () => {
     const [show, setShow] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
-    const { openConnectModal, toggleModalHandler } = useContext(GlobalContext);
-    const { connector, account, active, activate, chainId } = useWeb3React();
+    // const { openConnectModal, toggleModalHandler } = useContext(GlobalContext);
+    // const { connector, account, active, activate, chainId } = useWeb3React();
     const [activatingConnector, setActivatingConnector] = useState();
-    const onboarding = useRef();
-    const accountDetails = account;
+    // const onboarding = useRef();
+    // const accountDetails = account;
     const [showModel,setShowModel]= useState(false);
 
-    const triedEager = useEagerConnect();
-    useInactiveListener(!triedEager || !!activatingConnector);
-    // const {
-    //     openModal,
-    //   } = useContext(GlobalContext);
-    useEffect(() => {
-        if (activatingConnector && activatingConnector === connector) {
-          setActivatingConnector(undefined);
-        }
-      }, [activatingConnector, connector]);
-
-      useEffect(() => {
-        if (active) localStorage.setItem("shouldEggerConnect", "true");
-      }, [active]);
-
-      useEffect(() => {
-        const assignWeb3 = async () => {
-          window.web3 = await getWeb3();
-        };
-        if (account) {
-          assignWeb3();
-        }
-      }, [account]);
-
-      const onConnectToMetamaskFunc = () => {
-        if (MetaMaskOnboarding.isMetaMaskInstalled()) {
-          setActivatingConnector(injected);
-          activate(injected, undefined, true)
-            .then(() => console.log("Connected Successfully"))
-            .catch((e) => console.log("Something went worng", e));
-          localStorage.setItem("connectedWallet", "metamask");
-          setIsOpen()
-        } else {
-          onboarding.current.startOnboarding();
-        }
-      };
-
-      useEffect(() => {
-        if (
-          ((chainId === 80001 || chainId === 97) && account) ||
-          typeof chainId === "undefined"
-        ) {
-          // do nothing
-        } else {
-          // alert("Padmon only support Ethereum and Binance network");
-          networkSwitcher();
-        }
-      }, [chainId]);
-    
-      useEffect(() => {
-        if (MetaMaskOnboarding.isMetaMaskInstalled()) {
-          if (account && account.length > 0) {
-            onboarding?.current?.stopOnboarding();
-          }
-        }
-      }, [account]);
-
-      useEffect(() => {
-        if (!onboarding.current) {
-          onboarding.current = new MetaMaskOnboarding();
-        }
-      }, []);
-
-
-  useEffect(() => {
-    if (activatingConnector && activatingConnector === connector) {
-      setActivatingConnector(undefined);
-    }
-  }, [activatingConnector, connector]);
-
-
-  const onConnectWithWalletConnect = () => {
-    console.log("hello aditya")
-    setActivatingConnector(walletconnect);
-    activate(walletconnect, undefined, true).catch((err) => {
-      setActivatingConnector();
-      walletconnect.walletConnect1Provider = undefined;
-      localStorage.removeItem("connectedWallet");
-      setShowModel(false)
-      if (err) {
-        console.log("error", err);
-        // window.location.reload(false);
-      }
-    });
-    localStorage.setItem("connectedWallet", "walletConnect");
-  };
-
-  useEffect(() => {
-    const assignWeb3 = async () => {
-      window.web3 = await getWeb3();
-    };
-    if (account) {
-      assignWeb3();
-    }
-  }, [account]);
+  
   
 
 
@@ -142,20 +43,13 @@ const Navbar = () => {
                                     <li><Link href="/">Projects</Link></li>
                                     <li><Link href="/launchpad">ido launchpad</Link></li>
                                     <li><Link href="https://padmondao.gitbook.io" target="_blank">whitepaper</Link></li>
-                                    <div className="clear"></div>					</ul>
+                                    
+                                    <div className="clear">
+                                      </div>		
+                                    		</ul>
                             </div>
                             <div className="header-right-1">
-                                <span>
-                                    {/* <img src="/assets/group-1.png" style={{cursor:"pointer"}}
-                                    onConnectToMetamaskFunc={onConnectToMetamaskFunc}
-                                    // toggleModalHandler={toggleModalHandler}
-                                    // onConnectWithWalletConnect={onConnectWithWalletConnect}
-                                    onClick={()=>{setShowModel(!showModel)}}
-                                    /> */}
-                                    {
-                                      accountDetails?<button onClick={()=>{setShowModel(!showModel)}}  style={{cursor:"pointer"}} className="wallet_btn">{account.slice(0,13)}...</button>:<button className="wallet_btn" onClick={()=>{setShowModel(!showModel)}} style={{cursor:"pointer"}}>connect wallet</button>
-                                    }
-                                </span>
+                                <ConnectButton/>	
                             </div>
                         </div>
                     </div>
@@ -180,7 +74,8 @@ const Navbar = () => {
                                 <Link href="/">Game</Link>
                                 <Link href="/nft">NFTs</Link>
                                 <Link href="https://padmondao.gitbook.io" target="_blank">whitepaper</Link>
-                                <Link href="/">Unlock wallet</Link>
+                                {/* <Link href="/">Unlock wallet</Link> */}
+                                <ConnectButton/>
                             </div>
                         </div>	:""
                             }

@@ -6,6 +6,7 @@ import NftFarm from './NftFarm';
 import NftPool from './NftPool';
 import NftVote from './NftVote';
 import Link from 'next/link';
+import NftFarmStack from './NftFarmStack';
 
 
 
@@ -18,7 +19,7 @@ const [nftPool,setNftPool] = useState(0);
 
   return (
     <>
-      <div className={`${nftPool==0 ? 'main-body':""} ${ nftPool==1 ? 'main-body':""} ${nftPool==2 ? 'main-body':""}`}>
+      <div className={`${nftPool==0 ? 'main-body':""} ${ nftPool==1 ? 'main-body':""} ${nftPool==2 ? 'main-body':""} ${nftPool==3 ? 'main-body':""}`}>
       <div className="header-area">
                     <div className="container">
                         <div className="inner-header-area">
@@ -88,6 +89,7 @@ const [nftPool,setNftPool] = useState(0);
 					<li className={`${nftPool == 0 ?"nft-li-1":""}`} ><Link href="" onClick={()=>{setNftPool(0)}}>NFT POOL</Link></li>
 					<li className={`${nftPool == 1 ?"nft-li-1":""}`}><Link href="" onClick={()=>{setNftPool(1)}}>NFT FARM</Link></li>
 					<li className={`${nftPool == 2 ?"nft-li-1":""}`}><Link href="" onClick={()=>{setNftPool(2)}}>NFT VOTE</Link></li>
+                    <li className={`${nftPool == 3 ?"nft-li-1":""}`}><Link href="" onClick={()=>{setNftPool(3)}}>NFT Lending </Link></li>
 					<div className="clear"></div>
 				</ul>
 			</div>
@@ -102,6 +104,9 @@ const [nftPool,setNftPool] = useState(0);
 }
 {
 	nftPool == 2?<NftVote/>:""
+}
+{
+	nftPool == 3?<NftFarmStack/>:""
 }
 </div>
 </>

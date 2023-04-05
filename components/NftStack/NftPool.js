@@ -1,5 +1,9 @@
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 import React,{useEffect, useState} from 'react'
 
+import Config, { NFT, NFT_STAKE } from "/utils/Config";
+import Web3 from "web3";
+import MultiSingleNFTStakeCard from './MultiSingleNFTStakeCard';
 
 const DataCard=[
 	{
@@ -41,12 +45,35 @@ const DataCard=[
 
 ]
 
+const STAKE_CONTRACT = [
+	{
+	  address: "0xCeb05424c79Bd009e72Cb7107BD00A5D090a2Fa5",
+	  nft: "0xf9548aefa7b23E7B9EdAc6bc2075099b12A25b06",
+	  image: "/assets/images/OctoNft.gif",
+	  status: 1,
+	  fee: 1,
+	  feedecimal: 100,
+	  ape: 2,
+	  lp: 0,
+	  pair: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+	},
+  ];
+
+  
+
 const NftPool = () => {
     const [active,setActive] = useState(false);
 	const [details,showDetails] = useState(false);
 	// const [selectedData,showSelectedData] = useState(DataCard);
 
 	const [show, setShow] = useState(0)
+
+	let web3Provider;
+	if (typeof window !== "undefined") {
+	  web3Provider = window.ethereum;
+	}else{
+	  web3Provider = new Web3.providers.HttpProvider(Config.RPC_URL)
+	}
 
 	// const filterData=(id)=>{
 	// 	// console.log(id,"id......")
@@ -70,6 +97,9 @@ const NftPool = () => {
 		}
 		// setShow(index) 
 	}
+
+	
+
   return ( 
     <div >
         <div className="nft-section-2">
@@ -81,16 +111,18 @@ const NftPool = () => {
 	</div>
 </div>	
 	
-<div className="nft-section-3">
-	<div className="container">
-		<div className="inner-nft-section-3">
+<div className="nft-section-3  pb-10">
+	<div className="container ">
+		<div className="inner-nft-section-3 pb-10">
 			<div className="active-section">
 				<ul>
 					<li className={`${active == false ?"nft-li-1":""}`}><a href="#" onClick={()=>setActive(false)}>Active</a></li>
 					<li className={`${active == true ?"nft-li-1":""}`}><a href="#" onClick={()=>setActive(true)}>inactive</a></li>
 				</ul>
 			</div>
-			{
+			{/* {
+
+
 				DataCard.map((value,index)=>{
 					return(
 						<>
@@ -122,7 +154,7 @@ const NftPool = () => {
 
 				<div className="inner-active-section-5" id="ias-5">
 					<div className="inner-active-section-5-image">	
-						<img src="/assets/connect-wallet-btn.png" className='connect_wallet_btn'/>
+						<ConnectButton/>
 					</div>
 				</div>				
 			</div>		
@@ -162,7 +194,41 @@ const NftPool = () => {
 						</>
 					)
 				})
+			} */}
+			{
+				active?  <div className={`${setActive?"inactive":"active"} tab-panel`} id="inactive">
+				{STAKE_CONTRACT.length > 0 &&
+				  STAKE_CONTRACT.map((value, index) => {
+					if (value.status == 0) {
+					  return (
+						<MultiSingleNFTStakeCard
+						  data={STAKE_CONTRACT[index]}
+						  index={index}
+						/>
+					  );
+					}
+				  })}
+			  </div>
+				
+				:<div className={`${setActive?"active":"inactive"} tab-panel`} id="active">
+				{STAKE_CONTRACT.length > 0 &&
+				  STAKE_CONTRACT.map((value, index) => {
+					if (value.status == 1) {
+					  return (
+						<MultiSingleNFTStakeCard
+						  data={STAKE_CONTRACT[index]}
+						  index={index}
+						/>
+					  );
+					}
+				  })}
+			  </div>
+			
 			}
+			
+
+				
+
 		</div>
 	</div>
 	</div>	
